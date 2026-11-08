@@ -1,0 +1,6083 @@
+{
+ "id": "london",
+ "title": [
+  "London Fog",
+  "Londres na Névoa"
+ ],
+ "tagline": [
+  "Colour or color? Mind the gap.",
+  "Colour ou color? Cuidado com o vão."
+ ],
+ "color": "#C4121F",
+ "intro": [
+  [
+   "One year after the Hush, the sky over Bright Harbor cracks like paper.",
+   "Um ano depois do Silêncio, o céu de Bright Harbor racha como papel."
+  ],
+  [
+   "On one side, red buses and rain. On the other, yellow taxis and neon. Two worlds. Two Englishes. Behind them, thousands more.",
+   "De um lado, ônibus vermelhos e chuva. Do outro, táxis amarelos e neon. Dois mundos. Dois ingleses. Atrás deles, milhares de outros."
+  ],
+  [
+   "Someone with a red pen wants only one of them to survive. Mind the gap.",
+   "Alguém com uma caneta vermelha quer que só um deles sobreviva. Cuidado com o vão."
+  ]
+ ],
+ "roads": [
+  {
+   "id": "a",
+   "icon": "shield",
+   "en": "Go to the King's garden party",
+   "pt": "Ir à festa no jardim do Rei",
+   "sub": [
+    "Buckingham Palace · Captain Ashworth",
+    "Palácio de Buckingham · Capitão Ashworth"
+   ]
+  },
+  {
+   "id": "b",
+   "icon": "music",
+   "en": "Go to Camden Market",
+   "pt": "Ir ao mercado de Camden",
+   "sub": [
+    "Camden · Raj and a record from 1953",
+    "Camden · o Raj e um disco de 1953"
+   ]
+  },
+  {
+   "id": "c",
+   "icon": "lock",
+   "en": "Go down to Wren Street",
+   "pt": "Descer até Wren Street",
+   "sub": [
+    "The ghost station · Mr. Whitlock",
+    "A estação fantasma · Sr. Whitlock"
+   ]
+  }
+ ],
+ "relics": [
+  {
+   "id": "tube-ticket",
+   "en": "Your own Tube ticket",
+   "pt": "Seu próprio bilhete do metrô",
+   "how": [
+    "Week 1 · Red ink",
+    "Semana 1 · Tinta vermelha"
+   ],
+   "art": "ticket",
+   "tint": "#c4121f",
+   "accent": "#1d3d8f"
+  },
+  {
+   "id": "page-one",
+   "en": "Page one of the First Dictionary",
+   "pt": "Página um do Primeiro Dicionário",
+   "how": [
+    "Week 2 · The battle of the square",
+    "Semana 2 · A batalha da praça"
+   ],
+   "art": "page",
+   "tint": "#f2e6c8",
+   "accent": "#8a5ad9"
+  },
+  {
+   "id": "royal-invite",
+   "en": "A royal invitation, for life",
+   "pt": "Um convite real, vitalício",
+   "how": [
+    "Road A · The garden party",
+    "Caminho A · A festa no jardim"
+   ],
+   "art": "letter",
+   "tint": "#C9A227",
+   "accent": "#c4121f"
+  },
+  {
+   "id": "camden-badge",
+   "en": "The Camden badge",
+   "pt": "O broche de Camden",
+   "how": [
+    "Road B · Market day",
+    "Caminho B · Dia de feira"
+   ],
+   "art": "badge",
+   "tint": "#3CCB7F",
+   "accent": "#1a1a24"
+  },
+  {
+   "id": "whitlock-cap",
+   "en": "Mr. Whitlock's cap",
+   "pt": "O boné do Sr. Whitlock",
+   "how": [
+    "Road C · Wren Street opens",
+    "Caminho C · Wren Street reabre"
+   ],
+   "art": "ticket",
+   "tint": "#7FD8B8",
+   "accent": "#2a3550"
+  }
+ ],
+ "ranks": [
+  [
+   "Visitor",
+   "Visitante"
+  ],
+  [
+   "Londoner",
+   "Londrino"
+  ]
+ ],
+ "home": {
+  "sign": "THE KETTLE",
+  "facade": "#2a3a5a",
+  "trim": "#c4121f",
+  "ground": "road",
+  "sky": "dusk",
+  "deco": "roundel"
+ },
+ "targets": {
+  "ld-street": {
+   "bus": [
+    {
+     "x": 47,
+     "y": 52,
+     "r": 18
+    }
+   ],
+   "phone": [
+    {
+     "x": 76,
+     "y": 49,
+     "r": 8
+    }
+   ],
+   "postbox": [
+    {
+     "x": 90,
+     "y": 54,
+     "r": 6
+    }
+   ],
+   "cab": [
+    {
+     "x": 116,
+     "y": 56,
+     "r": 12
+    }
+   ],
+   "bigben": [
+    {
+     "x": 119,
+     "y": 26,
+     "r": 10
+    }
+   ]
+  },
+  "ld-cafe": {
+   "teapot": [
+    {
+     "x": 22,
+     "y": 50,
+     "r": 7
+    },
+    {
+     "x": 104,
+     "y": 54,
+     "r": 7
+    }
+   ],
+   "scones": [
+    {
+     "x": 42,
+     "y": 52,
+     "r": 8
+    }
+   ],
+   "window": [
+    {
+     "x": 114,
+     "y": 22,
+     "r": 14
+    }
+   ]
+  }
+ },
+ "cast": {
+  "traveller": {
+   "id": "traveller",
+   "name": "The Traveller",
+   "role": [
+    "A traveller in time, with a very long scarf",
+    "Um viajante do tempo, com um cachecol muito comprido"
+   ],
+   "color": "#C9302A",
+   "custom": true
+  },
+  "pippa": {
+   "id": "pippa",
+   "name": "Pippa Hargreaves",
+   "role": [
+    "Your guide in Albion",
+    "Sua guia em Albion"
+   ],
+   "color": "#F5C542",
+   "custom": false
+  },
+  "bunting": {
+   "id": "bunting",
+   "name": "Mrs. Bunting",
+   "role": [
+    "The owner of The Kettle tea room",
+    "A dona do salão de chá The Kettle"
+   ],
+   "color": "#E86F9A",
+   "custom": false
+  },
+  "ashworth": {
+   "id": "ashworth",
+   "name": "Captain Ashworth",
+   "role": [
+    "Captain of the King's Guard",
+    "Capitão da Guarda do Rei"
+   ],
+   "color": "#C4121F",
+   "custom": false
+  },
+  "raj": {
+   "id": "raj",
+   "name": "Raj",
+   "role": [
+    "A stallholder at Camden Market",
+    "Um feirante do mercado de Camden"
+   ],
+   "color": "#3CCB7F",
+   "custom": false
+  },
+  "whitlock": {
+   "id": "whitlock",
+   "name": "Mr. Whitlock",
+   "role": [
+    "The ghost stationmaster of Wren Street",
+    "O fantasma do chefe da estação Wren Street"
+   ],
+   "color": "#7FD8B8",
+   "custom": false
+  },
+  "errata": {
+   "id": "errata",
+   "name": "Lady Errata",
+   "role": [
+    "The Red Pen",
+    "A Caneta Vermelha"
+   ],
+   "color": "#B3121F",
+   "custom": false
+  },
+  "corrector": {
+   "id": "corrector",
+   "name": "A Corrector",
+   "role": [
+    "A drop of red ink that corrects everything",
+    "Uma gota de tinta vermelha que corrige tudo"
+   ],
+   "color": "#C4121F",
+   "custom": true
+  },
+  "danny": {
+   "id": "danny",
+   "name": "Danny Ruiz",
+   "role": [
+    "A taxi driver from Liberty",
+    "Um taxista de Liberty"
+   ],
+   "color": "#FFD23A",
+   "custom": false
+  },
+  "nullvox": {
+   "id": "nullvox",
+   "name": "Nullvox",
+   "role": [
+    "The one from the Hush",
+    "Aquele que vem do Silêncio"
+   ],
+   "color": "#3A3F4A",
+   "custom": true
+  }
+ },
+ "weeks": [
+  {
+   "id": "w1",
+   "floor": 0,
+   "rank": [
+    "Visitor",
+    "Visitante"
+   ],
+   "title": [
+    "Week 1 · Mind the Gap",
+    "Semana 1 · Cuidado com o Vão"
+   ],
+   "place": [
+    "London, in the rain",
+    "Londres, na chuva"
+   ],
+   "color": "#C4121F",
+   "days": [
+    {
+     "id": "ld-w1d1",
+     "title": [
+      "Through the crack",
+      "Pela rachadura"
+     ],
+     "sub": [
+      "You land in London",
+      "Você cai em Londres"
+     ],
+     "icon": "globe",
+     "grammar": [
+      "greetings in British English: cheers, lovely, brilliant",
+      "cumprimentos no inglês britânico: cheers, lovely, brilliant"
+     ],
+     "lessons": [
+      1,
+      2
+     ],
+     "words": [
+      [
+       "crack",
+       "rachadura"
+      ],
+      [
+       "bus",
+       "ônibus"
+      ],
+      [
+       "rain",
+       "chuva"
+      ],
+      [
+       "umbrella",
+       "guarda-chuva"
+      ],
+      [
+       "cheers",
+       "valeu / saúde"
+      ],
+      [
+       "lovely",
+       "adorável / ótimo"
+      ],
+      [
+       "brilliant",
+       "genial / ótimo"
+      ],
+      [
+       "mate",
+       "amigo / parceiro"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-crack",
+       "caps": [
+        [
+         "Bright Harbor, one year after the Hush. The sky tears like paper. You run to the crack… and the ground disappears.",
+         "Bright Harbor, um ano depois do Silêncio. O céu rasga como papel. Você corre para a rachadura… e o chão desaparece."
+        ],
+        [
+         "You fall through red light and blue light, and land on something soft. A seat. On the top floor of a red bus. In the rain.",
+         "Você cai por uma luz vermelha e uma luz azul e aterrissa em algo macio. Um banco. No andar de cima de um ônibus vermelho. Na chuva."
+        ]
+       ],
+       "fx": "storm",
+       "mood": "tension"
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-street",
+       "cast": [
+        "pippa",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "Oh! You fell out of the sky! Are you all right? I'm Pippa. Pippa Hargreaves. Welcome to London. Well, to Albion.",
+         "pt": "Ah! Você caiu do céu! Você está bem? Eu sou a Pippa. Pippa Hargreaves. Bem-vindo a Londres. Bom, a Albion.",
+         "emote": "alert"
+        },
+        {
+         "ask": [
+          "Answer Pippa.",
+          "Responda à Pippa."
+         ],
+         "opts": [
+          {
+           "en": "I'm fine, thanks. Nice to meet you, Pippa. Where am I?",
+           "pt": "Estou bem, obrigado. Prazer, Pippa. Onde eu estou?",
+           "ok": true
+          },
+          {
+           "en": "I'm fine, thanks. Where I am?",
+           "pt": "Estou bem. Onde eu estou?",
+           "fb": [
+            "Question: Where AM I?",
+            "Pergunta: Where AM I?"
+           ]
+          },
+          {
+           "en": "Is this Hollywood?",
+           "pt": "Isto é Hollywood?",
+           "fb": [
+            "Pippa: \"Hollywood? Good heavens, no.\"",
+            "Pippa: \"Hollywood? Céus, não.\""
+           ]
+          }
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "You're in London, the capital of Albion. Everyone here speaks British English. Lovely weather, isn't it? That's a joke. It always rains.",
+         "pt": "Você está em Londres, a capital de Albion. Todo mundo aqui fala inglês britânico. Que tempo lindo, não? É piada. Sempre chove.",
+         "emote": "laugh"
+        }
+       ]
+      },
+      {
+       "kind": "learn",
+       "scene": "ld-street",
+       "intro": [
+        "Touch the things of a London street. Listen to Pippa.",
+        "Toque nas coisas de uma rua de Londres. Escute a Pippa."
+       ],
+       "need": 5,
+       "targets": [
+        {
+         "id": "bus",
+         "en": "a double-decker bus",
+         "pt": "um ônibus de dois andares",
+         "ex": "It's a red bus with two floors.",
+         "ex_pt": "É um ônibus vermelho com dois andares.",
+         "x": 47,
+         "y": 52,
+         "who": "pippa"
+        },
+        {
+         "id": "phone",
+         "en": "a phone box",
+         "pt": "uma cabine telefônica",
+         "ex": "You can't call anyone from it now. It's a library!",
+         "ex_pt": "Não dá mais para ligar dela. Agora é uma biblioteca!",
+         "x": 76,
+         "y": 49,
+         "who": "pippa"
+        },
+        {
+         "id": "postbox",
+         "en": "a postbox",
+         "pt": "uma caixa de correio",
+         "ex": "Put your letters in the postbox.",
+         "ex_pt": "Ponha suas cartas na caixa de correio.",
+         "x": 90,
+         "y": 54,
+         "who": "pippa"
+        },
+        {
+         "id": "cab",
+         "en": "a black cab",
+         "pt": "um táxi preto",
+         "ex": "The taxis in London are black.",
+         "ex_pt": "Os táxis de Londres são pretos.",
+         "x": 116,
+         "y": 56,
+         "who": "pippa"
+        },
+        {
+         "id": "bigben",
+         "en": "Big Ben",
+         "pt": "o Big Ben",
+         "ex": "Big Ben is the bell in the clock tower.",
+         "ex_pt": "Big Ben é o sino da torre do relógio.",
+         "x": 119,
+         "y": 26,
+         "who": "pippa"
+        },
+        {
+         "id": "umbrella",
+         "en": "an umbrella",
+         "pt": "um guarda-chuva",
+         "ex": "In London, always carry an umbrella.",
+         "ex_pt": "Em Londres, sempre leve um guarda-chuva.",
+         "x": 128,
+         "y": 56,
+         "who": "pippa"
+        }
+       ],
+       "cast": [
+        "pippa"
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "British greetings.",
+        "Cumprimentos britânicos."
+       ],
+       "items": [
+        {
+         "q": [
+          "Pippa gives you an umbrella. You say…",
+          "A Pippa te dá um guarda-chuva. Você diz…"
+         ],
+         "opts": [
+          "Cheers!",
+          "Goodbye!",
+          "Sorry!"
+         ],
+         "a": 0,
+         "fb": [
+          "\"Cheers\" = thanks, in Britain.",
+          "\"Cheers\" = obrigado, na Grã-Bretanha."
+         ]
+        },
+        {
+         "q": [
+          "\"Brilliant!\" means…",
+          "\"Brilliant!\" significa…"
+         ],
+         "opts": [
+          "great!",
+          "very bright",
+          "expensive"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Lovely weather, isn't it?\" — Pippa is…",
+          "\"Que tempo lindo, não?\" — a Pippa está…"
+         ],
+         "opts": [
+          "joking",
+          "angry",
+          "lost"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Listen. What does Pippa say?",
+          "Escute. O que a Pippa diz?"
+         ],
+         "opts": [
+          "Mind the gap!",
+          "Mind the cap!",
+          "Find the gap!"
+         ],
+         "a": 0,
+         "say": "Mind the gap!"
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w1d2",
+     "title": [
+      "The Underground",
+      "O metrô"
+     ],
+     "sub": [
+      "Lines, stations, changes",
+      "Linhas, estações, baldeações"
+     ],
+     "icon": "list",
+     "grammar": [
+      "directions: take the… line, change at…, get off at…",
+      "direções: take the… line, change at…, get off at…"
+     ],
+     "lessons": [
+      27,
+      28
+     ],
+     "words": [
+      [
+       "the Underground",
+       "o metrô de Londres"
+      ],
+      [
+       "the Tube",
+       "o metrô (apelido)"
+      ],
+      [
+       "line",
+       "linha"
+      ],
+      [
+       "platform",
+       "plataforma"
+      ],
+      [
+       "change",
+       "baldear"
+      ],
+      [
+       "get off",
+       "descer"
+      ],
+      [
+       "single",
+       "só ida"
+      ],
+      [
+       "return",
+       "ida e volta"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-tube",
+       "cast": [
+        "pippa",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "This is the Underground. We call it \"the Tube\". Eleven lines, every one a different colour. C-O-L-O-U-R. Remember the U.",
+         "pt": "Este é o metrô. A gente chama de \"the Tube\". Onze linhas, cada uma de uma cor. C-O-L-O-U-R. Lembre do U.",
+         "emote": "idea"
+        },
+        {
+         "who": "pippa",
+         "en": "We need to go to The Kettle, my aunt's tea room. Take the red line, change at Bank, get off at the second stop.",
+         "pt": "Precisamos ir ao The Kettle, o salão de chá da minha tia. Pegue a linha vermelha, faça baldeação em Bank, desça na segunda parada."
+        },
+        {
+         "ask": [
+          "Check the directions.",
+          "Confira as direções."
+         ],
+         "opts": [
+          {
+           "en": "So I change at Bank and get off at the second stop?",
+           "pt": "Então eu faço baldeação em Bank e desço na segunda parada?",
+           "ok": true
+          },
+          {
+           "en": "So I change in Bank and get out the second stop?",
+           "pt": "Então eu baldeio em Bank e saio a segunda parada?",
+           "fb": [
+            "Change AT a station; get off AT a stop.",
+            "Change AT uma estação; get off AT uma parada."
+           ]
+          },
+          {
+           "en": "Can we take a taxi?",
+           "pt": "A gente pode pegar um táxi?",
+           "fb": [
+            "Pippa: \"In this traffic? Never.\"",
+            "Pippa: \"Com este trânsito? Nunca.\""
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "match",
+       "intro": [
+        "Tube words. Match them.",
+        "Palavras do metrô. Ligue-as."
+       ],
+       "pairs": [
+        [
+         "a single",
+         "a ticket for one way"
+        ],
+        [
+         "a return",
+         "a ticket there and back"
+        ],
+        [
+         "the platform",
+         "where you wait for the train"
+        ],
+        [
+         "change",
+         "take another line"
+        ],
+        [
+         "get off",
+         "leave the train"
+        ]
+       ]
+      },
+      {
+       "kind": "maze",
+       "intro": [
+        "Follow Pippa through the tunnels to the right platform.",
+        "Siga a Pippa pelos túneis até a plataforma certa."
+       ],
+       "map": [
+        "#######",
+        "#S...##",
+        "####.##",
+        "#D...##",
+        "#######"
+       ],
+       "moves": [
+        {
+         "en": "Go straight. Three steps.",
+         "pt": "Siga reto. Três passos.",
+         "turn": "straight",
+         "n": 3
+        },
+        {
+         "en": "Turn right. Down the stairs, two steps.",
+         "pt": "Vire à direita. Desça a escada, dois passos.",
+         "turn": "right",
+         "n": 2
+        },
+        {
+         "en": "Turn right again. Three steps to the platform.",
+         "pt": "Vire à direita de novo. Três passos até a plataforma.",
+         "turn": "right",
+         "n": 3
+        }
+       ],
+       "look": "city",
+       "who": "pippa"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "On the Tube.",
+        "No metrô."
+       ],
+       "items": [
+        {
+         "q": [
+          "A ticket there and back is a…",
+          "Um bilhete de ida e volta é um…"
+         ],
+         "opts": [
+          "return",
+          "single",
+          "double"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Change ___ Bank.\"",
+          "\"Faça baldeação em Bank.\""
+         ],
+         "opts": [
+          "at",
+          "in",
+          "on"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Get ___ at the second stop.\"",
+          "\"Desça na segunda parada.\""
+         ],
+         "opts": [
+          "off",
+          "out",
+          "down"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "In Albion, \"colour\" has…",
+          "Em Albion, \"colour\" tem…"
+         ],
+         "opts": [
+          "a U",
+          "no U",
+          "two Us"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w1d3",
+     "title": [
+      "Queues and manners",
+      "Filas e boas maneiras"
+     ],
+     "sub": [
+      "Sorry, excuse me, would you mind…?",
+      "Desculpa, com licença, você se importaria…?"
+     ],
+     "icon": "users",
+     "grammar": [
+      "polite requests: Excuse me, Could I…?, Would you mind…?",
+      "pedidos educados: Excuse me, Could I…?, Would you mind…?"
+     ],
+     "lessons": [
+      50,
+      57
+     ],
+     "words": [
+      [
+       "queue",
+       "fila"
+      ],
+      [
+       "sorry",
+       "desculpa"
+      ],
+      [
+       "excuse me",
+       "com licença"
+      ],
+      [
+       "polite",
+       "educado"
+      ],
+      [
+       "rude",
+       "mal-educado"
+      ],
+      [
+       "would you mind",
+       "você se importaria"
+      ],
+      [
+       "please",
+       "por favor"
+      ],
+      [
+       "thank you",
+       "obrigado"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-street",
+       "cast": [
+        "pippa",
+        "you",
+        "nullvox"
+       ],
+       "beats": [
+        {
+         "who": "narrator",
+         "en": "A long line of people waits for the bus. Then a grey figure walks straight to the front. It's Nullvox! He followed you through the crack.",
+         "pt": "Uma fila longa espera o ônibus. Então uma figura cinza vai direto para a frente. É o Nullvox! Ele te seguiu pela rachadura."
+        },
+        {
+         "who": "pippa",
+         "en": "Excuse me! Sir! There's a queue! In Albion, the queue is sacred.",
+         "pt": "Com licença! Senhor! Tem fila! Em Albion, a fila é sagrada.",
+         "emote": "anger"
+        },
+        {
+         "who": "nullvox",
+         "en": "Queue? I know \"line\". Friend said \"line\". Which is… correct?",
+         "pt": "Queue? Eu conheço \"line\". O amigo disse \"line\". Qual é… o certo?",
+         "emote": "question"
+        },
+        {
+         "ask": [
+          "Help Nullvox.",
+          "Ajude o Nullvox."
+         ],
+         "opts": [
+          {
+           "en": "Both are correct. Here they say \"queue\". Come, let's wait at the back.",
+           "pt": "Os dois estão certos. Aqui eles dizem \"queue\". Vem, vamos esperar no fim.",
+           "ok": true
+          },
+          {
+           "en": "Only \"queue\" is correct.",
+           "pt": "Só \"queue\" está certo.",
+           "fb": [
+            "Careful: that is exactly what the Red Pen wants you to think.",
+            "Cuidado: é exatamente isso que a Caneta Vermelha quer que você pense."
+           ]
+          },
+          {
+           "en": "Push to the front!",
+           "pt": "Fura a fila!",
+           "fb": [
+            "Forty people sigh at the same time.",
+            "Quarenta pessoas suspiram ao mesmo tempo."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "sort",
+       "intro": [
+        "Polite or rude in Albion?",
+        "Educado ou mal-educado em Albion?"
+       ],
+       "bins": [
+        {
+         "id": "pol",
+         "en": "Polite",
+         "pt": "Educado",
+         "color": "#3CCB7F"
+        },
+        {
+         "id": "rude",
+         "en": "Rude",
+         "pt": "Mal-educado",
+         "color": "#E53935"
+        }
+       ],
+       "items": [
+        {
+         "who": "pippa",
+         "en": "Excuse me, could I sit here?",
+         "pt": "Com licença, posso sentar aqui?",
+         "bin": "pol",
+         "why": [
+          "Excuse me + could = very polite.",
+          "Excuse me + could = bem educado."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "Give me that seat.",
+         "pt": "Me dá esse lugar.",
+         "bin": "rude",
+         "why": [
+          "An order, with no please.",
+          "Uma ordem, sem please."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "Would you mind closing the window?",
+         "pt": "Você se importaria de fechar a janela?",
+         "bin": "pol",
+         "why": [
+          "Would you mind + -ing.",
+          "Would you mind + -ing."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "Move.",
+         "pt": "Sai.",
+         "bin": "rude",
+         "why": [
+          "One word, and a cold one.",
+          "Uma palavra, e fria."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "Sorry, is this the queue for the bus?",
+         "pt": "Desculpa, esta é a fila do ônibus?",
+         "bin": "pol",
+         "why": [
+          "British people say sorry all the time.",
+          "Os britânicos pedem desculpa o tempo todo."
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Manners.",
+        "Boas maneiras."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"Would you mind ___ the door?\"",
+          "\"Você se importaria de abrir a porta?\""
+         ],
+         "opts": [
+          "opening",
+          "open",
+          "to open"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "A line of people waiting, in British English:",
+          "Uma fila de pessoas esperando, em inglês britânico:"
+         ],
+         "opts": [
+          "a queue",
+          "a cue",
+          "a cube"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Someone steps on your foot. A British person says…",
+          "Alguém pisa no seu pé. Um britânico diz…"
+         ],
+         "opts": [
+          "Sorry!",
+          "Thanks!",
+          "Cheers!"
+         ],
+         "a": 0,
+         "fb": [
+          "Yes: even when it is not their fault!",
+          "Sim: mesmo quando a culpa não é dele!"
+         ]
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w1d4",
+     "title": [
+      "A cuppa at The Kettle",
+      "Um chazinho no The Kettle"
+     ],
+     "sub": [
+      "Ordering tea, scones and biscuits",
+      "Pedindo chá, scones e biscoitos"
+     ],
+     "icon": "chef",
+     "grammar": [
+      "ordering: Could I have…? · pounds and pence",
+      "pedindo: Could I have…? · libras e pence"
+     ],
+     "lessons": [
+      25,
+      30
+     ],
+     "words": [
+      [
+       "a cuppa",
+       "uma xícara de chá"
+      ],
+      [
+       "milk",
+       "leite"
+      ],
+      [
+       "sugar",
+       "açúcar"
+      ],
+      [
+       "scone",
+       "scone (bolinho)"
+      ],
+      [
+       "biscuit",
+       "biscoito"
+      ],
+      [
+       "pound",
+       "libra"
+      ],
+      [
+       "pence",
+       "centavos (pence)"
+      ],
+      [
+       "the bill",
+       "a conta"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-cafe",
+       "cast": [
+        "bunting",
+        "pippa",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "bunting",
+         "en": "Pippa, love! And you brought a friend! Sit down, dear, sit down. A cuppa? You look like you fell out of the sky.",
+         "pt": "Pippa, querida! E trouxe um amigo! Sente, querido, sente. Um chazinho? Você parece que caiu do céu.",
+         "emote": "happy"
+        },
+        {
+         "who": "pippa",
+         "en": "He did, Aunt Mabel. I mean, Aunt Bunting. Long story.",
+         "pt": "Ele caiu, tia Mabel. Quero dizer, tia Bunting. Longa história.",
+         "emote": "laugh"
+        },
+        {
+         "ask": [
+          "Order from Mrs. Bunting.",
+          "Peça para a Sra. Bunting."
+         ],
+         "opts": [
+          {
+           "en": "Could I have a cup of tea with milk, please? And a scone?",
+           "pt": "Pode me ver uma xícara de chá com leite, por favor? E um scone?",
+           "ok": true
+          },
+          {
+           "en": "I want tea. And scone.",
+           "pt": "Eu quero chá. E scone.",
+           "fb": [
+            "Polite: Could I have…? And: A scone.",
+            "Educado: Could I have…? E: A scone."
+           ]
+          },
+          {
+           "en": "A coffee, very big, to go.",
+           "pt": "Um café, bem grande, para viagem.",
+           "fb": [
+            "Mrs. Bunting looks at you like you insulted the Queen.",
+            "A Sra. Bunting te olha como se você tivesse insultado a Rainha."
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "chart",
+       "who": "bunting",
+       "intro": [
+        "Listen to Mrs. Bunting and write the prices.",
+        "Escute a Sra. Bunting e anote os preços."
+       ],
+       "said": [
+        [
+         "A pot of tea is two pounds fifty.",
+         "Um bule de chá custa duas libras e cinquenta."
+        ],
+        [
+         "A scone with jam and cream is three pounds.",
+         "Um scone com geleia e creme custa três libras."
+        ],
+        [
+         "A plate of biscuits is one pound twenty.",
+         "Um prato de biscoitos custa uma libra e vinte."
+        ],
+        [
+         "So the bill is six pounds seventy, dear.",
+         "Então a conta é seis libras e setenta, querido."
+        ]
+       ],
+       "fields": [
+        {
+         "label": [
+          "Pot of tea",
+          "Bule de chá"
+         ],
+         "opts": [
+          "£2.15",
+          "£2.50",
+          "£5.20"
+         ],
+         "a": 1
+        },
+        {
+         "label": [
+          "Scone",
+          "Scone"
+         ],
+         "opts": [
+          "£3.00",
+          "£0.30",
+          "£13.00"
+         ],
+         "a": 0
+        },
+        {
+         "label": [
+          "Biscuits",
+          "Biscoitos"
+         ],
+         "opts": [
+          "£1.20",
+          "£1.02",
+          "£2.10"
+         ],
+         "a": 0
+        },
+        {
+         "label": [
+          "The bill",
+          "A conta"
+         ],
+         "opts": [
+          "£6.70",
+          "£7.60",
+          "£6.17"
+         ],
+         "a": 0
+        }
+       ],
+       "title": [
+        "The Kettle · bill",
+        "The Kettle · conta"
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "At the tea room.",
+        "No salão de chá."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"A cuppa\" is…",
+          "\"A cuppa\" é…"
+         ],
+         "opts": [
+          "a cup of tea",
+          "a small cup",
+          "a coffee"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "In Albion, a \"biscuit\" is…",
+          "Em Albion, um \"biscuit\" é…"
+         ],
+         "opts": [
+          "a sweet cookie",
+          "a kind of bread",
+          "a cake"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "£6.70 is…",
+          "£6,70 é…"
+         ],
+         "opts": [
+          "six pounds seventy",
+          "six pound seven",
+          "sixty-seven pounds"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Could I have the bill, please?\" You want to…",
+          "\"Could I have the bill, please?\" Você quer…"
+         ],
+         "opts": [
+          "pay",
+          "order",
+          "sit"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w1d5",
+     "title": [
+      "Two Englishes",
+      "Dois ingleses"
+     ],
+     "sub": [
+      "Flat or apartment? Lift or elevator?",
+      "Flat ou apartment? Lift ou elevator?"
+     ],
+     "icon": "translate",
+     "grammar": [
+      "British and American words for the same thing",
+      "palavras britânicas e americanas para a mesma coisa"
+     ],
+     "lessons": [
+      4,
+      15
+     ],
+     "words": [
+      [
+       "flat",
+       "apartamento (UK)"
+      ],
+      [
+       "lift",
+       "elevador (UK)"
+      ],
+      [
+       "rubbish",
+       "lixo (UK)"
+      ],
+      [
+       "mobile",
+       "celular (UK)"
+      ],
+      [
+       "crisps",
+       "batatinhas (UK)"
+      ],
+      [
+       "chips",
+       "batata frita (UK)"
+      ],
+      [
+       "autumn",
+       "outono (UK)"
+      ],
+      [
+       "holiday",
+       "férias (UK)"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-cafe",
+       "cast": [
+        "pippa",
+        "you",
+        "nullvox"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "Right. Lesson one of Albion: we say \"flat\", not \"apartment\". \"Lift\", not \"elevator\". \"Rubbish\", not \"trash\".",
+         "pt": "Certo. Lição um de Albion: a gente diz \"flat\", não \"apartment\". \"Lift\", não \"elevator\". \"Rubbish\", não \"trash\"."
+        },
+        {
+         "who": "nullvox",
+         "en": "Friend's friends in Bright Harbor said \"apartment\". Now Pippa says \"flat\". My head… is full of static.",
+         "pt": "Os amigos do amigo em Bright Harbor diziam \"apartment\". Agora a Pippa diz \"flat\". Minha cabeça… está cheia de estática.",
+         "emote": "swirl"
+        },
+        {
+         "who": "pippa",
+         "en": "Both are English! Over there, across the Seam, there's another world: Liberty. They say it their way. We say it ours.",
+         "pt": "Os dois são inglês! Lá, do outro lado da Costura, existe outro mundo: Liberty. Eles falam do jeito deles. A gente fala do nosso."
+        }
+       ]
+      },
+      {
+       "kind": "memory",
+       "intro": [
+        "Same thing, two words. Find the pairs: Albion and Liberty.",
+        "Mesma coisa, duas palavras. Ache os pares: Albion e Liberty."
+       ],
+       "pairs": [
+        [
+         "flat",
+         "apartment"
+        ],
+        [
+         "lift",
+         "elevator"
+        ],
+        [
+         "rubbish",
+         "trash"
+        ],
+        [
+         "mobile",
+         "cell phone"
+        ],
+        [
+         "crisps",
+         "chips"
+        ],
+        [
+         "autumn",
+         "fall"
+        ]
+       ],
+       "look": "name"
+      },
+      {
+       "kind": "sort",
+       "intro": [
+        "Which world uses this word?",
+        "Qual mundo usa esta palavra?"
+       ],
+       "bins": [
+        {
+         "id": "uk",
+         "en": "Albion (UK)",
+         "pt": "Albion (Reino Unido)",
+         "color": "#C4121F"
+        },
+        {
+         "id": "us",
+         "en": "Liberty (US)",
+         "pt": "Liberty (EUA)",
+         "color": "#2A5AA8"
+        }
+       ],
+       "items": [
+        {
+         "who": "pippa",
+         "en": "Take the lift to the third floor.",
+         "pt": "Pegue o elevador até o terceiro andar.",
+         "bin": "uk",
+         "why": [
+          "lift = UK.",
+          "lift = Reino Unido."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "I live in an apartment.",
+         "pt": "Eu moro num apartamento.",
+         "bin": "us",
+         "why": [
+          "apartment = US (UK: flat).",
+          "apartment = EUA (UK: flat)."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "Put the rubbish in the bin.",
+         "pt": "Ponha o lixo na lixeira.",
+         "bin": "uk",
+         "why": [
+          "rubbish, bin = UK.",
+          "rubbish, bin = Reino Unido."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "Call me on my cell phone.",
+         "pt": "Me liga no celular.",
+         "bin": "us",
+         "why": [
+          "cell phone = US (UK: mobile).",
+          "cell phone = EUA (UK: mobile)."
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "We're going on holiday in August.",
+         "pt": "Vamos sair de férias em agosto.",
+         "bin": "uk",
+         "why": [
+          "holiday = UK (US: vacation).",
+          "holiday = Reino Unido (EUA: vacation)."
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Two Englishes.",
+        "Dois ingleses."
+       ],
+       "items": [
+        {
+         "q": [
+          "In Albion, \"chips\" are…",
+          "Em Albion, \"chips\" são…"
+         ],
+         "opts": [
+          "hot potato sticks (French fries)",
+          "thin crisps in a bag",
+          "computer parts"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Which is correct?",
+          "Qual está correto?"
+         ],
+         "opts": [
+          "Both \"flat\" and \"apartment\"",
+          "Only \"flat\"",
+          "Only \"apartment\""
+         ],
+         "a": 0,
+         "fb": [
+          "Both. Different places, both correct.",
+          "Os dois. Lugares diferentes, os dois corretos."
+         ]
+        },
+        {
+         "q": [
+          "The season after summer, in Albion:",
+          "A estação depois do verão, em Albion:"
+         ],
+         "opts": [
+          "autumn",
+          "fall",
+          "spring"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w1x",
+     "title": [
+      "Red ink",
+      "Tinta vermelha"
+     ],
+     "sub": [
+      "Something is changing the signs",
+      "Algo está mudando as placas"
+     ],
+     "icon": "alert",
+     "grammar": [
+      "Week 1 review",
+      "Revisão da semana 1"
+     ],
+     "lessons": [
+      1,
+      27,
+      50,
+      25
+     ],
+     "words": [
+      [
+       "sign",
+       "placa"
+      ],
+      [
+       "wrong",
+       "errado"
+      ],
+      [
+       "correct",
+       "corrigir / correto"
+      ],
+      [
+       "ink",
+       "tinta"
+      ],
+      [
+       "run",
+       "correr"
+      ],
+      [
+       "catch",
+       "pegar"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-street",
+       "caps": [
+        [
+         "On the way home, the sign of The Kettle changes in front of your eyes. A red line crosses it out.",
+         "No caminho de casa, a placa do The Kettle muda diante dos seus olhos. Uma linha vermelha a risca."
+        ],
+        [
+         "Little drops of red ink run along the street, squeaking \"Wrong! Wrong!\" and changing every word they touch.",
+         "Gotinhas de tinta vermelha correm pela rua, guinchando \"Errado! Errado!\" e mudando cada palavra que tocam."
+        ]
+       ],
+       "fx": "glitch",
+       "cast": [
+        "corrector",
+        "pippa"
+       ],
+       "mood": "tension"
+      },
+      {
+       "kind": "surgery",
+       "look": "race",
+       "scene": "ld-street",
+       "cast": [
+        "pippa",
+        "corrector"
+       ],
+       "title": [
+        "Catch the Correctors",
+        "Pegue os Corretores"
+       ],
+       "intro": [
+        "Tell Pippa what to do! Quick!",
+        "Diga à Pippa o que fazer! Rápido!"
+       ],
+       "moments": [
+        {
+         "cue": [
+          "One is running to the postbox!",
+          "Um está correndo para a caixa de correio!"
+         ],
+         "opts": [
+          [
+           "Block the postbox!",
+           "Bloqueie a caixa de correio!"
+          ],
+          [
+           "Post a letter!",
+           "Mande uma carta!"
+          ],
+          [
+           "Have a cup of tea!",
+           "Tome um chá!"
+          ]
+         ],
+         "a": 0,
+         "secs": 8
+        },
+        {
+         "cue": [
+          "Another is climbing the bus!",
+          "Outro está subindo no ônibus!"
+         ],
+         "opts": [
+          [
+           "Get on the bus, quick!",
+           "Suba no ônibus, rápido!"
+          ],
+          [
+           "Get off the bus!",
+           "Desça do ônibus!"
+          ],
+          [
+           "Wait in the queue.",
+           "Espere na fila."
+          ]
+         ],
+         "a": 0,
+         "secs": 8
+        },
+        {
+         "cue": [
+          "It's writing on the phone box!",
+          "Está escrevendo na cabine telefônica!"
+         ],
+         "opts": [
+          [
+           "Grab the pen!",
+           "Pegue a caneta!"
+          ],
+          [
+           "Call it.",
+           "Ligue para ele."
+          ],
+          [
+           "Say sorry.",
+           "Peça desculpa."
+          ]
+         ],
+         "a": 0,
+         "secs": 7
+        }
+       ],
+       "maxErr": 1
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-street",
+       "cast": [
+        "corrector",
+        "you",
+        "pippa"
+       ],
+       "beats": [
+        {
+         "who": "corrector",
+         "en": "Wrong! Wrong! Lady Errata says: ONE English. Correct English. HER English! Everything else gets the red pen!",
+         "pt": "Errado! Errado! A Lady Errata diz: UM inglês. Inglês correto. O inglês DELA! Todo o resto leva a caneta vermelha!",
+         "emote": "anger"
+        },
+        {
+         "who": "pippa",
+         "en": "Who on earth is Lady Errata?",
+         "pt": "Quem raios é a Lady Errata?",
+         "emote": "question"
+        },
+        {
+         "ask": [
+          "The Corrector escapes. What do you say to Pippa?",
+          "O Corretor foge. O que você diz à Pippa?"
+         ],
+         "opts": [
+          {
+           "en": "I don't know. But I think we're going to find out.",
+           "pt": "Não sei. Mas acho que vamos descobrir.",
+           "ok": true
+          },
+          {
+           "en": "I don't know. But I think we going to find out.",
+           "pt": "Não sei. Mas acho que a gente vamos descobrir.",
+           "fb": [
+            "We ARE going to: we're going to.",
+            "We ARE going to: we're going to."
+           ]
+          },
+          {
+           "en": "Let's go home.",
+           "pt": "Vamos para casa.",
+           "fb": [
+            "Pippa: \"We can't. My city is being… corrected.\"",
+            "Pippa: \"Não dá. Minha cidade está sendo… corrigida.\""
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "reward",
+       "title": [
+        "A Londoner now",
+        "Agora um londrino"
+       ],
+       "who": "pippa",
+       "line": [
+        "Here: your own Tube ticket. You're one of us now. Brilliant.",
+        "Aqui: seu próprio bilhete do metrô. Agora você é um de nós. Genial."
+       ],
+       "relic": "tube-ticket",
+       "rank": [
+        "Londoner",
+        "Londrino"
+       ]
+      }
+     ],
+     "mins": 10,
+     "final": true,
+     "pass": 0.6
+    }
+   ]
+  },
+  {
+   "id": "w2",
+   "floor": 1,
+   "rank": [
+    "Londoner",
+    "Londrino"
+   ],
+   "title": [
+    "Week 2 · The Correctors",
+    "Semana 2 · Os Corretores"
+   ],
+   "place": [
+    "London, in red ink",
+    "Londres, em tinta vermelha"
+   ],
+   "color": "#8A1A2A",
+   "days": [
+    {
+     "id": "ld-w2d1",
+     "title": [
+      "The changed signs",
+      "As placas trocadas"
+     ],
+     "sub": [
+      "Find what the Correctors did",
+      "Descubra o que os Corretores fizeram"
+     ],
+     "icon": "search",
+     "grammar": [
+      "British spelling: -our, -re, -ise",
+      "ortografia britânica: -our, -re, -ise"
+     ],
+     "lessons": [
+      4,
+      38
+     ],
+     "words": [
+      [
+       "spelling",
+       "ortografia"
+      ],
+      [
+       "colour",
+       "cor (UK)"
+      ],
+      [
+       "centre",
+       "centro (UK)"
+      ],
+      [
+       "theatre",
+       "teatro (UK)"
+      ],
+      [
+       "realise",
+       "perceber (UK)"
+      ],
+      [
+       "neighbour",
+       "vizinho (UK)"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "inspect",
+       "scene": "ld-street",
+       "intro": [
+        "Look at the street with the magnifying glass. What did the Correctors change?",
+        "Examine a rua com a lupa. O que os Corretores mudaram?"
+       ],
+       "clues": [
+        {
+         "id": "sign",
+         "x": 30,
+         "y": 50,
+         "r": 7,
+         "en": "The sign said \"THEATRE\". Now it says \"THEATER\". Somebody crossed out the RE.",
+         "pt": "A placa dizia \"THEATRE\". Agora diz \"THEATER\". Alguém riscou o RE.",
+         "mark": "scratch"
+        },
+        {
+         "id": "drop",
+         "x": 64,
+         "y": 70,
+         "r": 7,
+         "en": "A drop of red ink. Still wet. It went that way.",
+         "pt": "Uma gota de tinta vermelha. Ainda molhada. Foi por ali.",
+         "mark": "drop"
+        },
+        {
+         "id": "postbox",
+         "x": 90,
+         "y": 56,
+         "r": 7,
+         "en": "A note on the postbox: \"COLOUR is WRONG. COLOR is WRONG. Only I decide. — E.\"",
+         "pt": "Um bilhete na caixa de correio: \"COLOUR está ERRADO. COLOR está ERRADO. Só eu decido. — E.\"",
+         "mark": "paper"
+        },
+        {
+         "id": "cab",
+         "x": 112,
+         "y": 58,
+         "r": 7,
+         "en": "Tiny footprints in red, going towards Big Ben.",
+         "pt": "Pegadinhas vermelhas, indo na direção do Big Ben.",
+         "mark": "print"
+        }
+       ],
+       "need": 4
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-street",
+       "cast": [
+        "pippa",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "They're not just changing British words into American ones. Look: \"colour\" and \"color\", both crossed out. They want to delete BOTH.",
+         "pt": "Eles não estão só trocando palavras britânicas por americanas. Olha: \"colour\" e \"color\", os dois riscados. Eles querem apagar OS DOIS.",
+         "emote": "alert"
+        },
+        {
+         "who": "pippa",
+         "en": "Only one English left. Hers. And everybody too scared to speak.",
+         "pt": "Só um inglês sobrando. O dela. E todo mundo com medo demais para falar."
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "British spelling.",
+        "Ortografia britânica."
+       ],
+       "items": [
+        {
+         "q": [
+          "British spelling:",
+          "Ortografia britânica:"
+         ],
+         "opts": [
+          "colour",
+          "color"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "British spelling:",
+          "Ortografia britânica:"
+         ],
+         "opts": [
+          "centre",
+          "center"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "American spelling:",
+          "Ortografia americana:"
+         ],
+         "opts": [
+          "theater",
+          "theatre"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Are both spellings correct English?",
+          "As duas ortografias são inglês correto?"
+         ],
+         "opts": [
+          "Yes, in different places",
+          "No, only one",
+          "Only in books"
+         ],
+         "a": 0
+        }
+       ]
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-street",
+       "cast": [
+        "traveller",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "traveller",
+         "en": "Excuse me! Which way to 1851? Sorry, sorry. I mean: which way to Hyde Park?",
+         "pt": "Com licença! Para que lado fica 1851? Desculpa, desculpa. Quer dizer: para que lado fica o Hyde Park?",
+         "emote": "question"
+        },
+        {
+         "who": "narrator",
+         "en": "A tall man with a scarf so long it touches the pavement. He thanks you, turns a corner… and there is a strange whooshing sound.",
+         "pt": "Um homem alto com um cachecol tão comprido que encosta na calçada. Ele agradece, vira a esquina… e se ouve um estranho som de vento."
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w2d2",
+     "title": [
+      "The red footprints",
+      "As pegadas vermelhas"
+     ],
+     "sub": [
+      "Follow the trail through the city",
+      "Siga a trilha pela cidade"
+     ],
+     "icon": "flag",
+     "grammar": [
+      "prepositions of place and movement: past, across, along, through",
+      "preposições de lugar e movimento: past, across, along, through"
+     ],
+     "lessons": [
+      27,
+      28
+     ],
+     "words": [
+      [
+       "past",
+       "passando por"
+      ],
+      [
+       "across",
+       "atravessando"
+      ],
+      [
+       "along",
+       "ao longo de"
+      ],
+      [
+       "through",
+       "através de"
+      ],
+      [
+       "bridge",
+       "ponte"
+      ],
+      [
+       "river",
+       "rio"
+      ],
+      [
+       "corner",
+       "esquina"
+      ],
+      [
+       "trail",
+       "trilha"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-street",
+       "cast": [
+        "pippa",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "The footprints go along the river, across the bridge, and through the park. I know a shortcut. Follow me, and mind the puddles.",
+         "pt": "As pegadas vão ao longo do rio, atravessam a ponte e passam pelo parque. Conheço um atalho. Me siga, e cuidado com as poças."
+        }
+       ]
+      },
+      {
+       "kind": "maze",
+       "intro": [
+        "Follow the red footprints. Listen to Pippa.",
+        "Siga as pegadas vermelhas. Escute a Pippa."
+       ],
+       "map": [
+        "########",
+        "#S.#...#",
+        "#..#.#.#",
+        "##...#D#",
+        "########"
+       ],
+       "moves": [
+        {
+         "en": "Go one step forward.",
+         "pt": "Dê um passo para a frente.",
+         "turn": "straight",
+         "n": 1
+        },
+        {
+         "en": "Turn right and go along the river. Two steps.",
+         "pt": "Vire à direita e siga ao longo do rio. Dois passos.",
+         "turn": "right",
+         "n": 2
+        },
+        {
+         "en": "Turn left and go across the bridge. Two steps.",
+         "pt": "Vire à esquerda e atravesse a ponte. Dois passos.",
+         "turn": "left",
+         "n": 2
+        },
+        {
+         "en": "Turn left. Walk past the shops. Two steps.",
+         "pt": "Vire à esquerda. Passe pelas lojas. Dois passos.",
+         "turn": "left",
+         "n": 2
+        },
+        {
+         "en": "Turn right, through the park. Two steps.",
+         "pt": "Vire à direita, pelo parque. Dois passos.",
+         "turn": "right",
+         "n": 2
+        },
+        {
+         "en": "Turn right. Two steps. There, at the corner!",
+         "pt": "Vire à direita. Dois passos. Ali, na esquina!",
+         "turn": "right",
+         "n": 2
+        }
+       ],
+       "look": "city",
+       "who": "pippa"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Prepositions.",
+        "Preposições."
+       ],
+       "items": [
+        {
+         "q": [
+          "We walked ___ the bridge (from one side to the other).",
+          "Atravessamos a ponte."
+         ],
+         "opts": [
+          "across",
+          "along",
+          "past"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "We walked ___ the river (next to it, for a long time).",
+          "Andamos ao longo do rio."
+         ],
+         "opts": [
+          "along",
+          "across",
+          "through"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "We walked ___ the park (in one side, out the other).",
+          "Passamos pelo meio do parque."
+         ],
+         "opts": [
+          "through",
+          "past",
+          "on"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "We walked ___ the shops (we didn't stop).",
+          "Passamos pelas lojas (sem parar)."
+         ],
+         "opts": [
+          "past",
+          "across",
+          "into"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w2d3",
+     "title": [
+      "Thirteen o'clock",
+      "Treze horas"
+     ],
+     "sub": [
+      "Big Ben strikes thirteen",
+      "O Big Ben bate treze"
+     ],
+     "icon": "clock",
+     "grammar": [
+      "telling the time in British English: half seven, quarter to",
+      "dizer as horas no inglês britânico: half seven, quarter to"
+     ],
+     "lessons": [
+      17
+     ],
+     "words": [
+      [
+       "strike",
+       "bater (horas)"
+      ],
+      [
+       "half past",
+       "e meia"
+      ],
+      [
+       "half seven",
+       "sete e meia (UK)"
+      ],
+      [
+       "quarter to",
+       "quinze para"
+      ],
+      [
+       "midnight",
+       "meia-noite"
+      ],
+      [
+       "bell",
+       "sino"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-bigben",
+       "caps": [
+        [
+         "The footprints end at Big Ben. Midnight. Bong… bong… The great bell strikes twelve.",
+         "As pegadas terminam no Big Ben. Meia-noite. Blém… blém… O grande sino bate doze vezes."
+        ],
+        [
+         "And then it strikes once more. Thirteen. Your pocket feels warm. In Bright Harbor, a clockmaker would know what that means.",
+         "E então bate mais uma vez. Treze. Seu bolso esquenta. Em Bright Harbor, um relojoeiro saberia o que isso significa."
+        ]
+       ],
+       "fx": "thirteen",
+       "cast": [],
+       "mood": "reveal"
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-bigben",
+       "cast": [
+        "pippa",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "Thirteen? That's impossible. Big Ben has struck the right time for a hundred and sixty years.",
+         "pt": "Treze? Impossível. O Big Ben bate a hora certa há cento e sessenta anos.",
+         "emote": "alert"
+        },
+        {
+         "ask": [
+          "You know something about clocks that strike thirteen.",
+          "Você sabe uma coisa sobre relógios que batem treze."
+         ],
+         "opts": [
+          {
+           "en": "When a clock strikes thirteen, time is breaking. I've seen it before.",
+           "pt": "Quando um relógio bate treze, o tempo está quebrando. Eu já vi isso.",
+           "ok": true
+          },
+          {
+           "en": "When a clock strike thirteen, time breaks.",
+           "pt": "Quando um relógio bater treze, o tempo quebra.",
+           "fb": [
+            "A clock STRIKES: he, she, it + s.",
+            "A clock STRIKES: he, she, it + s."
+           ]
+          },
+          {
+           "en": "Maybe it's just broken.",
+           "pt": "Talvez só esteja quebrado.",
+           "fb": [
+            "Pippa: \"Big Ben does not BREAK.\"",
+            "Pippa: \"O Big Ben não QUEBRA.\""
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "British time.",
+        "As horas no estilo britânico."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"Half seven\" (UK) is…",
+          "\"Half seven\" (UK) é…"
+         ],
+         "opts": [
+          "7:30",
+          "6:30",
+          "7:15"
+         ],
+         "a": 0,
+         "fb": [
+          "In Albion, \"half seven\" = half past seven.",
+          "Em Albion, \"half seven\" = sete e meia."
+         ]
+        },
+        {
+         "q": [
+          "11:45 is…",
+          "11:45 é…"
+         ],
+         "opts": [
+          "a quarter to twelve",
+          "a quarter past eleven",
+          "half eleven"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Listen. What time does Pippa say?",
+          "Escute. Que horas a Pippa diz?"
+         ],
+         "opts": [
+          "twenty past nine",
+          "twenty to nine",
+          "twelve past nine"
+         ],
+         "a": 0,
+         "say": "It's twenty past nine."
+        },
+        {
+         "q": [
+          "Big Ben is…",
+          "O Big Ben é…"
+         ],
+         "opts": [
+          "the bell in the tower",
+          "a very big man",
+          "a bus"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w2d4",
+     "title": [
+      "Pippa goes quiet",
+      "A Pippa fica calada"
+     ],
+     "sub": [
+      "The Red Pen corrected her voice",
+      "A Caneta Vermelha corrigiu a voz dela"
+     ],
+     "icon": "heart",
+     "grammar": [
+      "encouraging someone: Don't worry, You can do it, It doesn't matter",
+      "encorajar alguém: Don't worry, You can do it, It doesn't matter"
+     ],
+     "lessons": [
+      44,
+      57
+     ],
+     "words": [
+      [
+       "afraid",
+       "com medo"
+      ],
+      [
+       "mistake",
+       "erro"
+      ],
+      [
+       "accent",
+       "sotaque"
+      ],
+      [
+       "brave",
+       "corajoso"
+      ],
+      [
+       "it doesn't matter",
+       "não importa"
+      ],
+      [
+       "try",
+       "tentar"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-cafe",
+       "cast": [
+        "pippa",
+        "you",
+        "bunting"
+       ],
+       "beats": [
+        {
+         "who": "bunting",
+         "en": "She came back from Big Ben and she hasn't said a word, dear. A Corrector wrote on her hand: \"YOUR ACCENT IS WRONG.\"",
+         "pt": "Ela voltou do Big Ben e não disse uma palavra, querido. Um Corretor escreveu na mão dela: \"SEU SOTAQUE ESTÁ ERRADO.\"",
+         "emote": "sad"
+        },
+        {
+         "who": "pippa",
+         "en": "…What if I say it wrong?",
+         "pt": "…E se eu falar errado?",
+         "emote": "drops"
+        },
+        {
+         "ask": [
+          "Pippa is afraid to speak. Say something kind.",
+          "A Pippa tem medo de falar. Diga algo gentil."
+         ],
+         "opts": [
+          {
+           "en": "Your accent is not wrong. It's yours. And I understand you perfectly.",
+           "pt": "Seu sotaque não está errado. É seu. E eu te entendo perfeitamente.",
+           "ok": true
+          },
+          {
+           "en": "Your accent are not wrong.",
+           "pt": "Seu sotaque não estão errado.",
+           "fb": [
+            "One accent: IS.",
+            "Um sotaque: IS."
+           ]
+          },
+          {
+           "en": "Speak correctly, then.",
+           "pt": "Então fale corretamente.",
+           "fb": [
+            "That is what the Red Pen would say.",
+            "Isso é o que a Caneta Vermelha diria."
+           ]
+          }
+         ]
+        },
+        {
+         "who": "pippa",
+         "en": "…Thank you. You know, I've made mistakes all my life. They never stopped anyone from understanding me.",
+         "pt": "…Obrigada. Sabe, eu errei a vida inteira. Isso nunca impediu ninguém de me entender.",
+         "emote": "heart"
+        }
+       ],
+       "mood": "sad"
+      },
+      {
+       "kind": "spell",
+       "intro": [
+        "Say the words that wash the red ink from Pippa's hand.",
+        "Diga as palavras que lavam a tinta vermelha da mão da Pippa."
+       ],
+       "spells": [
+        {
+         "rune": "1",
+         "en": "It doesn't matter.",
+         "pt": "Não importa."
+        },
+        {
+         "rune": "2",
+         "en": "You can do it.",
+         "pt": "Você consegue."
+        },
+        {
+         "rune": "3",
+         "en": "Mistakes help us learn.",
+         "pt": "Erros nos ajudam a aprender."
+        }
+       ],
+       "look": "words",
+       "scene": "ld-cafe"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Encouraging words.",
+        "Palavras de encorajamento."
+       ],
+       "items": [
+        {
+         "q": [
+          "Your friend is afraid of making a mistake. You say…",
+          "Seu amigo tem medo de errar. Você diz…"
+         ],
+         "opts": [
+          "Don't worry. Just try.",
+          "Be careful. Don't speak.",
+          "You are wrong."
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"It doesn't matter\" means…",
+          "\"It doesn't matter\" significa…"
+         ],
+         "opts": [
+          "it is not important",
+          "it is very important",
+          "it is made of matter"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "What does the Red Pen want people to feel?",
+          "O que a Caneta Vermelha quer que as pessoas sintam?"
+         ],
+         "opts": [
+          "afraid to speak",
+          "happy to speak",
+          "hungry"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w2d5",
+     "title": [
+      "The Corrector's testimony",
+      "O depoimento do Corretor"
+     ],
+     "sub": [
+      "Catch the lies",
+      "Pegue as mentiras"
+     ],
+     "icon": "search",
+     "grammar": [
+      "present simple for routines and facts; spotting a lie",
+      "presente simples para rotinas e fatos; achar uma mentira"
+     ],
+     "lessons": [
+      16,
+      24
+     ],
+     "words": [
+      [
+       "testimony",
+       "depoimento"
+      ],
+      [
+       "lie",
+       "mentira"
+      ],
+      [
+       "truth",
+       "verdade"
+      ],
+      [
+       "evidence",
+       "prova"
+      ],
+      [
+       "objection",
+       "objeção / protesto"
+      ],
+      [
+       "honest",
+       "honesto"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-cafe",
+       "cast": [
+        "pippa",
+        "corrector",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "We caught one! It was hiding in the sugar bowl. Right, little one. Talk.",
+         "pt": "Pegamos um! Estava escondido no açucareiro. Certo, pequenino. Fala.",
+         "emote": "anger"
+        }
+       ]
+      },
+      {
+       "kind": "testimony",
+       "scene": "ld-cafe",
+       "who": "corrector",
+       "intro": [
+        "The Corrector tells you what it does. Find the lies and shout \"Objection!\"",
+        "O Corretor conta o que faz. Ache as mentiras e grite \"Protesto!\""
+       ],
+       "title": [
+        "What we Correctors do",
+        "O que nós, Corretores, fazemos"
+       ],
+       "statements": [
+        {
+         "en": "We only correct real mistakes. Nothing else.",
+         "pt": "Nós só corrigimos erros de verdade. Mais nada.",
+         "lie": {
+          "evidence": "colour",
+          "fb": [
+           "\"Colour\" is not a mistake, and you crossed it out!",
+           "\"Colour\" não é erro, e vocês riscaram!"
+          ],
+          "after": [
+           "…Lady Errata says it is a mistake. So it is. Probably.",
+           "…A Lady Errata diz que é erro. Então é. Provavelmente."
+          ]
+         }
+        },
+        {
+         "en": "We never touch people. Only paper.",
+         "pt": "Nós nunca tocamos nas pessoas. Só no papel.",
+         "lie": {
+          "evidence": "hand",
+          "fb": [
+           "You wrote on Pippa's hand!",
+           "Vocês escreveram na mão da Pippa!"
+          ],
+          "after": [
+           "…That was a different Corrector. A taller one.",
+           "…Foi outro Corretor. Um mais alto."
+          ]
+         }
+        },
+        {
+         "en": "We work for Lady Errata. She lives in a big notebook.",
+         "pt": "Trabalhamos para a Lady Errata. Ela mora num caderno enorme.",
+         "press": [
+          "A notebook as big as a city. Very tidy.",
+          "Um caderno do tamanho de uma cidade. Muito arrumado."
+         ]
+        },
+        {
+         "en": "We are trying to help everybody.",
+         "pt": "Estamos tentando ajudar todo mundo."
+        }
+       ],
+       "evidence": [
+        {
+         "id": "colour",
+         "en": "The sign: \"colour\" crossed out",
+         "pt": "A placa: \"colour\" riscado",
+         "icon": "eye"
+        },
+        {
+         "id": "hand",
+         "en": "The red words on Pippa's hand",
+         "pt": "As palavras vermelhas na mão da Pippa",
+         "icon": "heart"
+        },
+        {
+         "id": "note",
+         "en": "The note signed \"E.\"",
+         "pt": "O bilhete assinado \"E.\"",
+         "icon": "pencil"
+        },
+        {
+         "id": "clock",
+         "en": "Big Ben struck thirteen",
+         "pt": "O Big Ben bateu treze",
+         "icon": "clock"
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "The truth.",
+        "A verdade."
+       ],
+       "items": [
+        {
+         "q": [
+          "The Correctors ___ for Lady Errata.",
+          "Os Corretores trabalham para a Lady Errata."
+         ],
+         "opts": [
+          "work",
+          "works",
+          "working"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Lady Errata ___ in a big notebook.",
+          "A Lady Errata mora num caderno enorme."
+         ],
+         "opts": [
+          "lives",
+          "live",
+          "living"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "A Corrector ___ on Pippa's hand.",
+          "Um Corretor escreveu na mão da Pippa."
+         ],
+         "opts": [
+          "wrote",
+          "writed",
+          "writes"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-w2x",
+     "title": [
+      "The battle of the square",
+      "A batalha da praça"
+     ],
+     "sub": [
+      "The first page",
+      "A primeira página"
+     ],
+     "icon": "bolt",
+     "grammar": [
+      "Week 2 review",
+      "Revisão da semana 2"
+     ],
+     "lessons": [
+      4,
+      17,
+      27,
+      44
+     ],
+     "words": [
+      [
+       "square",
+       "praça"
+      ],
+      [
+       "page",
+       "página"
+      ],
+      [
+       "dictionary",
+       "dicionário"
+      ],
+      [
+       "protect",
+       "proteger"
+      ],
+      [
+       "together",
+       "juntos"
+      ],
+      [
+       "choose",
+       "escolher"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-square",
+       "caps": [
+        [
+         "Trafalgar Square, at dawn. Hundreds of Correctors are crossing out the words on every statue, every sign, every newspaper.",
+         "Trafalgar Square, ao amanhecer. Centenas de Corretores riscam as palavras de cada estátua, cada placa, cada jornal."
+        ],
+        [
+         "In the middle of them, an old page floats in the air, glowing. The Correctors are trying to cross it out too.",
+         "No meio deles, uma página antiga flutua no ar, brilhando. Os Corretores estão tentando riscá-la também."
+        ]
+       ],
+       "fx": "storm",
+       "cast": [
+        "corrector"
+       ],
+       "mood": "battle",
+       "vfx": "embers"
+      },
+      {
+       "kind": "surgery",
+       "look": "battle",
+       "scene": "ld-square",
+       "cast": [
+        "pippa",
+        "corrector"
+       ],
+       "title": [
+        "Save the page",
+        "Salve a página"
+       ],
+       "intro": [
+        "Speak, and don't be afraid of mistakes!",
+        "Fale, e não tenha medo de errar!"
+       ],
+       "moments": [
+        {
+         "cue": [
+          "The Correctors shout \"WRONG!\" at you.",
+          "Os Corretores gritam \"ERRADO!\" para você."
+         ],
+         "opts": [
+          [
+           "Maybe. But you understood me!",
+           "Talvez. Mas vocês me entenderam!"
+          ],
+          [
+           "Sorry, I'll stop speaking.",
+           "Desculpa, vou parar de falar."
+          ],
+          [
+           "…",
+           "…"
+          ]
+         ],
+         "a": 0,
+         "secs": 8
+        },
+        {
+         "cue": [
+          "They cross out \"colour\" on a statue.",
+          "Eles riscam \"colour\" numa estátua."
+         ],
+         "opts": [
+          [
+           "Colour, color: both are English!",
+           "Colour, color: os dois são inglês!"
+          ],
+          [
+           "Only color is right.",
+           "Só color está certo."
+          ],
+          [
+           "Only colour is right.",
+           "Só colour está certo."
+          ]
+         ],
+         "a": 0,
+         "secs": 9
+        },
+        {
+         "cue": [
+          "Pippa is surrounded!",
+          "A Pippa está cercada!"
+         ],
+         "opts": [
+          [
+           "Pippa, speak! Loudly! Your way!",
+           "Pippa, fala! Alto! Do seu jeito!"
+          ],
+          [
+           "Pippa, be quiet!",
+           "Pippa, fica quieta!"
+          ],
+          [
+           "Run away, Pippa!",
+           "Foge, Pippa!"
+          ]
+         ],
+         "a": 0,
+         "secs": 7
+        }
+       ],
+       "maxErr": 1
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-square",
+       "cast": [
+        "pippa",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "narrator",
+         "en": "Pippa shouts, in her own accent, every word she knows. The Correctors melt like ink in the rain. The page floats down into your hands.",
+         "pt": "A Pippa grita, com o próprio sotaque, todas as palavras que sabe. Os Corretores derretem como tinta na chuva. A página desce flutuando até as suas mãos."
+        },
+        {
+         "who": "pippa",
+         "en": "\"Page one of the First Dictionary. Written before the Split.\" There are seven. If we find them all… the two worlds can live together.",
+         "pt": "\"Página um do Primeiro Dicionário. Escrita antes do Rasgo.\" São sete. Se acharmos todas… os dois mundos podem viver juntos.",
+         "emote": "idea"
+        },
+        {
+         "who": "pippa",
+         "en": "Mrs. Bunting heard three things today. The King's garden party has a Corrector inside. The market in Camden is losing its words. And the old station of Wren Street… is open again.",
+         "pt": "A Sra. Bunting ouviu três coisas hoje. A festa no jardim do Rei tem um Corretor lá dentro. O mercado de Camden está perdendo as palavras. E a velha estação Wren Street… está aberta de novo."
+        },
+        {
+         "branch": [
+          "Where do you go?",
+          "Para onde você vai?"
+         ],
+         "note": [
+          "After this road, you can play the others in \"What if…?\"",
+          "Depois deste caminho, você pode jogar os outros em \"E se…?\""
+         ],
+         "opts": [
+          {
+           "en": "To the King's garden party.",
+           "pt": "Para a festa no jardim do Rei.",
+           "path": "a"
+          },
+          {
+           "en": "To Camden Market.",
+           "pt": "Para o mercado de Camden.",
+           "path": "b"
+          },
+          {
+           "en": "To the ghost station of Wren Street.",
+           "pt": "Para a estação fantasma de Wren Street.",
+           "path": "c"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "reward",
+       "title": [
+        "Page one",
+        "Página um"
+       ],
+       "who": "pippa",
+       "line": [
+        "One page saved. Six to go. Brilliant.",
+        "Uma página salva. Faltam seis. Genial."
+       ],
+       "relic": "page-one",
+       "rank": [
+        "Page Keeper",
+        "Guardião das Páginas"
+       ]
+      }
+     ],
+     "mins": 10,
+     "final": true,
+     "pass": 0.6
+    }
+   ]
+  },
+  {
+   "id": "a",
+   "floor": 2,
+   "rank": [
+    "Royal Guest",
+    "Convidado Real"
+   ],
+   "title": [
+    "Road A · The garden party",
+    "Caminho A · A festa no jardim"
+   ],
+   "place": [
+    "Buckingham Palace",
+    "Palácio de Buckingham"
+   ],
+   "color": "#C9A227",
+   "days": [
+    {
+     "id": "ld-a1",
+     "title": [
+      "At the gates",
+      "Nos portões"
+     ],
+     "sub": [
+      "Captain Ashworth",
+      "O Capitão Ashworth"
+     ],
+     "icon": "shield",
+     "grammar": [
+      "formal English: May I…?, I would like to…",
+      "inglês formal: May I…?, I would like to…"
+     ],
+     "lessons": [
+      50,
+      57
+     ],
+     "words": [
+      [
+       "gate",
+       "portão"
+      ],
+      [
+       "guard",
+       "guarda"
+      ],
+      [
+       "invitation",
+       "convite"
+      ],
+      [
+       "may I",
+       "posso (formal)"
+      ],
+      [
+       "I would like",
+       "eu gostaria"
+      ],
+      [
+       "formal",
+       "formal"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-palace",
+       "cast": [
+        "ashworth",
+        "you",
+        "pippa"
+       ],
+       "beats": [
+        {
+         "who": "ashworth",
+         "en": "Halt. This is Buckingham Palace. Nobody enters without an invitation.",
+         "pt": "Alto. Este é o Palácio de Buckingham. Ninguém entra sem convite."
+        },
+        {
+         "ask": [
+          "Speak to the captain. Be formal.",
+          "Fale com o capitão. Seja formal."
+         ],
+         "opts": [
+          {
+           "en": "Good morning, Captain. May I speak to you? I would like to warn the King.",
+           "pt": "Bom dia, Capitão. Posso falar com o senhor? Eu gostaria de avisar o Rei.",
+           "ok": true
+          },
+          {
+           "en": "Hey! Let me in!",
+           "pt": "Ei! Me deixa entrar!",
+           "fb": [
+            "The captain does not move. Not even his eyes.",
+            "O capitão não se mexe. Nem os olhos."
+           ]
+          },
+          {
+           "en": "Good morning. I would like warn the King.",
+           "pt": "Bom dia. Eu gostaria avisar o Rei.",
+           "fb": [
+            "I would like TO warn.",
+            "I would like TO warn."
+           ]
+          }
+         ]
+        },
+        {
+         "who": "ashworth",
+         "en": "Warn him? Of what? …Red ink? Hmm. This morning, the menu said \"cookies\" instead of \"biscuits\". The King nearly fainted.",
+         "pt": "Avisar? Do quê? …Tinta vermelha? Hmm. Hoje de manhã, o cardápio dizia \"cookies\" em vez de \"biscuits\". O Rei quase desmaiou.",
+         "emote": "question"
+        }
+       ]
+      },
+      {
+       "kind": "match",
+       "intro": [
+        "Formal and informal.",
+        "Formal e informal."
+       ],
+       "pairs": [
+        [
+         "Hi!",
+         "Good morning."
+        ],
+        [
+         "Can I…?",
+         "May I…?"
+        ],
+        [
+         "I want…",
+         "I would like…"
+        ],
+        [
+         "Thanks!",
+         "Thank you very much."
+        ],
+        [
+         "Yeah.",
+         "Yes, certainly."
+        ]
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Formal English.",
+        "Inglês formal."
+       ],
+       "items": [
+        {
+         "q": [
+          "The most formal:",
+          "O mais formal:"
+         ],
+         "opts": [
+          "May I come in?",
+          "Can I come in?",
+          "Let me in."
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"I would like ___ the King.\"",
+          "\"Eu gostaria de ver o Rei.\""
+         ],
+         "opts": [
+          "to see",
+          "see",
+          "seeing"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The King's guards wear…",
+          "Os guardas do Rei usam…"
+         ],
+         "opts": [
+          "red jackets and tall black hats",
+          "blue jeans",
+          "yellow raincoats"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-a2",
+     "title": [
+      "Garden party manners",
+      "Etiqueta da festa"
+     ],
+     "sub": [
+      "Small talk with the guests",
+      "Conversa fiada com os convidados"
+     ],
+     "icon": "users",
+     "grammar": [
+      "small talk: the weather, Lovely to meet you, How do you do?",
+      "conversa fiada: o tempo, Lovely to meet you, How do you do?"
+     ],
+     "lessons": [
+      1,
+      50
+     ],
+     "words": [
+      [
+       "guest",
+       "convidado"
+      ],
+      [
+       "small talk",
+       "conversa fiada"
+      ],
+      [
+       "weather",
+       "tempo (clima)"
+      ],
+      [
+       "How do you do?",
+       "Muito prazer (formal)"
+      ],
+      [
+       "delighted",
+       "encantado"
+      ],
+      [
+       "garden",
+       "jardim"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-palace",
+       "cast": [
+        "ashworth",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "ashworth",
+         "en": "Rule one of a garden party: talk about the weather. Rule two: never talk about anything else.",
+         "pt": "Regra um de uma festa no jardim: fale sobre o tempo. Regra dois: nunca fale sobre outra coisa.",
+         "emote": "laugh"
+        },
+        {
+         "ask": [
+          "A duchess says: \"How do you do?\" Answer.",
+          "Uma duquesa diz: \"How do you do?\" Responda."
+         ],
+         "opts": [
+          {
+           "en": "How do you do? Lovely weather today, isn't it?",
+           "pt": "Muito prazer. Que tempo lindo hoje, não?",
+           "ok": true
+          },
+          {
+           "en": "I'm fine, and you?",
+           "pt": "Estou bem, e você?",
+           "fb": [
+            "\"How do you do?\" is answered with \"How do you do?\"",
+            "\"How do you do?\" se responde com \"How do you do?\""
+           ]
+          },
+          {
+           "en": "What do you do for work?",
+           "pt": "O que você faz da vida?",
+           "fb": [
+            "Too personal for a garden party!",
+            "Pessoal demais para uma festa no jardim!"
+           ]
+          }
+         ]
+        }
+       ],
+       "state": {
+        "garden": true
+       }
+      },
+      {
+       "kind": "sort",
+       "intro": [
+        "Good small talk, or not for a garden party?",
+        "Boa conversa fiada, ou não serve para a festa?"
+       ],
+       "bins": [
+        {
+         "id": "ok",
+         "en": "Good small talk",
+         "pt": "Boa conversa fiada",
+         "color": "#3CCB7F"
+        },
+        {
+         "id": "no",
+         "en": "Not here!",
+         "pt": "Aqui não!",
+         "color": "#E53935"
+        }
+       ],
+       "items": [
+        {
+         "who": "ashworth",
+         "en": "Isn't it a beautiful day?",
+         "pt": "Que dia lindo, não?",
+         "bin": "ok",
+         "why": [
+          "The weather: always safe.",
+          "O tempo: sempre seguro."
+         ]
+        },
+        {
+         "who": "ashworth",
+         "en": "How much money do you earn?",
+         "pt": "Quanto você ganha?",
+         "bin": "no",
+         "why": [
+          "Money: never.",
+          "Dinheiro: nunca."
+         ]
+        },
+        {
+         "who": "ashworth",
+         "en": "These scones are delicious.",
+         "pt": "Estes scones estão deliciosos.",
+         "bin": "ok",
+         "why": [
+          "Food is safe too.",
+          "Comida também é seguro."
+         ]
+        },
+        {
+         "who": "ashworth",
+         "en": "Why are you so old?",
+         "pt": "Por que você é tão velho?",
+         "bin": "no",
+         "why": [
+          "Oh dear. No.",
+          "Ai, ai. Não."
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Small talk.",
+        "Conversa fiada."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"How do you do?\" is…",
+          "\"How do you do?\" é…"
+         ],
+         "opts": [
+          "a formal hello",
+          "a question about your health",
+          "a question about your job"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The safest topic in Britain:",
+          "O assunto mais seguro na Grã-Bretanha:"
+         ],
+         "opts": [
+          "the weather",
+          "politics",
+          "money"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Lovely to meet you\" means…",
+          "\"Lovely to meet you\" significa…"
+         ],
+         "opts": [
+          "nice to meet you",
+          "I love you",
+          "see you soon"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-a3",
+     "title": [
+      "A guest who is not a guest",
+      "Um convidado que não é convidado"
+     ],
+     "sub": [
+      "Find the Corrector at the party",
+      "Ache o Corretor na festa"
+     ],
+     "icon": "search",
+     "grammar": [
+      "describing people: tall, short, wearing…, with…",
+      "descrever pessoas: tall, short, wearing…, with…"
+     ],
+     "lessons": [
+      10,
+      38
+     ],
+     "words": [
+      [
+       "wearing",
+       "usando (roupa)"
+      ],
+      [
+       "tall",
+       "alto"
+      ],
+      [
+       "hat",
+       "chapéu"
+      ],
+      [
+       "gloves",
+       "luvas"
+      ],
+      [
+       "suspicious",
+       "suspeito"
+      ],
+      [
+       "ink",
+       "tinta"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "inspect",
+       "scene": "ld-palace",
+       "intro": [
+        "Look at the garden with the magnifying glass. One guest is a Corrector in disguise.",
+        "Examine o jardim com a lupa. Um convidado é um Corretor disfarçado."
+       ],
+       "clues": [
+        {
+         "id": "glove",
+         "x": 30,
+         "y": 74,
+         "r": 7,
+         "en": "A white glove with a red stain inside.",
+         "pt": "Uma luva branca com uma mancha vermelha por dentro.",
+         "mark": "drop"
+        },
+        {
+         "id": "menu",
+         "x": 66,
+         "y": 72,
+         "r": 7,
+         "en": "The menu: \"biscuits\" crossed out, \"cookies\" written. Then \"cookies\" crossed out too.",
+         "pt": "O cardápio: \"biscuits\" riscado, \"cookies\" escrito. Depois \"cookies\" riscado também.",
+         "mark": "paper"
+        },
+        {
+         "id": "hat",
+         "x": 102,
+         "y": 70,
+         "r": 7,
+         "en": "A very tall hat, left on a chair. Inside, a tiny pen nib.",
+         "pt": "Uma cartola bem alta, deixada numa cadeira. Dentro, uma pontinha de caneta.",
+         "mark": "hair"
+        }
+       ],
+       "need": 3,
+       "state": {
+        "garden": true
+       }
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-palace",
+       "cast": [
+        "ashworth",
+        "you",
+        "corrector"
+       ],
+       "beats": [
+        {
+         "who": "ashworth",
+         "en": "There! The lady in the very tall hat. She has been \"correcting\" the King's speech all afternoon.",
+         "pt": "Ali! A senhora da cartola enorme. Ela passou a tarde toda \"corrigindo\" o discurso do Rei.",
+         "emote": "exclamation"
+        },
+        {
+         "who": "corrector",
+         "en": "Wrong! Wrong! The King says \"tomahto\". Lady Errata says one pronunciation only!",
+         "pt": "Errado! Errado! O Rei fala \"tomahto\". A Lady Errata diz: só uma pronúncia!",
+         "emote": "anger"
+        }
+       ],
+       "state": {
+        "garden": true
+       }
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Describing people.",
+        "Descrever pessoas."
+       ],
+       "items": [
+        {
+         "q": [
+          "She is ___ a very tall hat.",
+          "Ela está usando uma cartola bem alta."
+         ],
+         "opts": [
+          "wearing",
+          "carrying",
+          "having"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The glove had a red stain ___.",
+          "A luva tinha uma mancha vermelha por dentro."
+         ],
+         "opts": [
+          "inside",
+          "outside",
+          "between"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "A person who looks like they did something wrong is…",
+          "Uma pessoa que parece ter feito algo errado é…"
+         ],
+         "opts": [
+          "suspicious",
+          "delicious",
+          "delighted"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-a4",
+     "title": [
+      "The King's speech",
+      "O discurso do Rei"
+     ],
+     "sub": [
+      "Help the King find his words",
+      "Ajude o Rei a achar as palavras"
+     ],
+     "icon": "mic",
+     "grammar": [
+      "sentence order in a speech: First, Then, Finally",
+      "ordem num discurso: First, Then, Finally"
+     ],
+     "lessons": [
+      38,
+      44
+     ],
+     "words": [
+      [
+       "speech",
+       "discurso"
+      ],
+      [
+       "first",
+       "primeiro"
+      ],
+      [
+       "then",
+       "depois"
+      ],
+      [
+       "finally",
+       "finalmente"
+      ],
+      [
+       "nation",
+       "nação"
+      ],
+      [
+       "welcome",
+       "boas-vindas"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-palace",
+       "cast": [
+        "ashworth",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "ashworth",
+         "en": "The Corrector scrambled the King's speech. He goes on in five minutes. Can you put it back in order?",
+         "pt": "O Corretor embaralhou o discurso do Rei. Ele entra em cinco minutos. Você consegue colocar de volta em ordem?",
+         "emote": "alert"
+        }
+       ],
+       "state": {
+        "garden": true
+       }
+      },
+      {
+       "kind": "order",
+       "intro": [
+        "Put the King's speech in order.",
+        "Coloque o discurso do Rei em ordem."
+       ],
+       "tasks": [
+        {
+         "title": [
+          "The King's speech",
+          "O discurso do Rei"
+         ],
+         "steps": [
+          [
+           "First, welcome, everybody, to my garden.",
+           "Primeiro, bem-vindos todos ao meu jardim."
+          ],
+          [
+           "Then, thank you for coming in this… lovely weather.",
+           "Depois, obrigado por virem neste… tempo lindo."
+          ],
+          [
+           "Some say \"tomahto\", some say \"tomayto\". Both are English.",
+           "Uns dizem \"tomahto\", outros \"tomayto\". Os dois são inglês."
+          ],
+          [
+           "Finally: please, enjoy the scones.",
+           "Finalmente: por favor, aproveitem os scones."
+          ]
+         ]
+        }
+       ],
+       "look": "steps"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "The speech.",
+        "O discurso."
+       ],
+       "items": [
+        {
+         "q": [
+          "The word that starts a list:",
+          "A palavra que começa uma lista:"
+         ],
+         "opts": [
+          "First",
+          "Finally",
+          "Then"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The word for the last thing:",
+          "A palavra para a última coisa:"
+         ],
+         "opts": [
+          "Finally",
+          "First",
+          "Next"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "What does the King say about \"tomahto\" and \"tomayto\"?",
+          "O que o Rei diz sobre \"tomahto\" e \"tomayto\"?"
+         ],
+         "opts": [
+          "Both are English.",
+          "Only one is correct.",
+          "He hates tomatoes."
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-a5",
+     "title": [
+      "Changing of the Guard",
+      "A Troca da Guarda"
+     ],
+     "sub": [
+      "March with the guards",
+      "Marche com os guardas"
+     ],
+     "icon": "flag",
+     "grammar": [
+      "commands: Attention! Left, right! Halt!",
+      "comandos: Attention! Left, right! Halt!"
+     ],
+     "lessons": [
+      28
+     ],
+     "words": [
+      [
+       "march",
+       "marchar"
+      ],
+      [
+       "left",
+       "esquerda"
+      ],
+      [
+       "right",
+       "direita"
+      ],
+      [
+       "halt",
+       "alto (pare)"
+      ],
+      [
+       "attention",
+       "sentido"
+      ],
+      [
+       "salute",
+       "continência"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-palace",
+       "cast": [
+        "ashworth",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "ashworth",
+         "en": "The King wants to thank you in the old way. You will march in the Changing of the Guard. Listen to my commands.",
+         "pt": "O Rei quer te agradecer do jeito antigo. Você vai marchar na Troca da Guarda. Escute meus comandos.",
+         "emote": "stars"
+        }
+       ]
+      },
+      {
+       "kind": "surgery",
+       "look": "race",
+       "scene": "ld-palace",
+       "cast": [
+        "ashworth",
+        "you"
+       ],
+       "title": [
+        "The Changing of the Guard",
+        "A Troca da Guarda"
+       ],
+       "intro": [
+        "Do what the captain says!",
+        "Faça o que o capitão manda!"
+       ],
+       "moments": [
+        {
+         "cue": [
+          "\"Attention!\"",
+          "\"Sentido!\""
+         ],
+         "opts": [
+          [
+           "Stand straight, eyes forward.",
+           "Ficar reto, olhos para a frente."
+          ],
+          [
+           "Sit down.",
+           "Sentar."
+          ],
+          [
+           "Wave to the crowd.",
+           "Acenar para o público."
+          ]
+         ],
+         "a": 0,
+         "secs": 7
+        },
+        {
+         "cue": [
+          "\"Quick march! Left, right, left, right!\"",
+          "\"Marche! Esquerda, direita, esquerda, direita!\""
+         ],
+         "opts": [
+          [
+           "March forward.",
+           "Marchar para a frente."
+          ],
+          [
+           "Run backwards.",
+           "Correr para trás."
+          ],
+          [
+           "Dance.",
+           "Dançar."
+          ]
+         ],
+         "a": 0,
+         "secs": 7
+        },
+        {
+         "cue": [
+          "\"Halt!\"",
+          "\"Alto!\""
+         ],
+         "opts": [
+          [
+           "Stop.",
+           "Parar."
+          ],
+          [
+           "Jump.",
+           "Pular."
+          ],
+          [
+           "Turn around.",
+           "Virar."
+          ]
+         ],
+         "a": 0,
+         "secs": 6
+        }
+       ],
+       "maxErr": 1
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Commands.",
+        "Comandos."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"Halt!\" means…",
+          "\"Halt!\" significa…"
+         ],
+         "opts": [
+          "Stop!",
+          "Go!",
+          "Hello!"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Attention!\" means…",
+          "\"Attention!\" significa…"
+         ],
+         "opts": [
+          "stand straight",
+          "listen to music",
+          "sit down"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The Changing of the Guard happens at…",
+          "A Troca da Guarda acontece no…"
+         ],
+         "opts": [
+          "the palace",
+          "the Tube",
+          "the market"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-ax",
+     "title": [
+      "A royal thank you",
+      "Um agradecimento real"
+     ],
+     "sub": [
+      "The garden party is saved",
+      "A festa no jardim está salva"
+     ],
+     "icon": "star",
+     "grammar": [
+      "Road A review",
+      "Revisão do caminho A"
+     ],
+     "lessons": [
+      50,
+      57,
+      38
+     ],
+     "words": [
+      [
+       "honour",
+       "honra (UK)"
+      ],
+      [
+       "grateful",
+       "grato"
+      ],
+      [
+       "royal",
+       "real"
+      ],
+      [
+       "invite",
+       "convidar"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-palace",
+       "caps": [
+        [
+         "The King finishes his speech. The guests clap politely. Then, very un-British, they cheer.",
+         "O Rei termina o discurso. Os convidados aplaudem educadamente. Então, de um jeito nada britânico, comemoram."
+        ],
+        [
+         "The Corrector in the tall hat is gone. On the menu, someone wrote \"biscuits (cookies)\". Nobody crossed it out.",
+         "O Corretor da cartola sumiu. No cardápio, alguém escreveu \"biscuits (cookies)\". Ninguém riscou."
+        ]
+       ],
+       "fx": "light",
+       "cast": [
+        "ashworth"
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Road A review.",
+        "Revisão do caminho A."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"May I sit here?\" is…",
+          "\"May I sit here?\" é…"
+         ],
+         "opts": [
+          "formal",
+          "rude",
+          "a question about May"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "British spelling:",
+          "Ortografia britânica:"
+         ],
+         "opts": [
+          "honour",
+          "honor"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "After \"How do you do?\", you say…",
+          "Depois de \"How do you do?\", você diz…"
+         ],
+         "opts": [
+          "How do you do?",
+          "Fine, thanks.",
+          "I do well."
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"First…, then…, finally…\" helps you…",
+          "\"First…, then…, finally…\" ajuda você a…"
+         ],
+         "opts": [
+          "put ideas in order",
+          "say goodbye",
+          "count money"
+         ],
+         "a": 0
+        }
+       ]
+      },
+      {
+       "kind": "cine",
+       "scene": "ld-crack",
+       "caps": [
+        [
+         "That night the crack in the sky opens wider. Behind it there are not two worlds… but thousands, like pages of a book falling.",
+         "Naquela noite, a rachadura no céu se abre mais. Atrás dela não há dois mundos… mas milhares, como páginas de um livro caindo."
+        ],
+        [
+         "Pippa whispers: \"Every one of those is an Earth. And something very big is turning the pages.\"",
+         "A Pippa sussurra: \"Cada um daqueles é uma Terra. E algo muito grande está virando as páginas.\""
+        ]
+       ],
+       "fx": "glow"
+      },
+      {
+       "kind": "reward",
+       "title": [
+        "Royal Guest",
+        "Convidado Real"
+       ],
+       "who": "ashworth",
+       "line": [
+        "The King asked me to give you this invitation. For life. I'm not smiling. I'm on duty. …I'm smiling a little.",
+        "O Rei pediu para te dar este convite. Vitalício. Não estou sorrindo. Estou de serviço. …Estou sorrindo um pouco."
+       ],
+       "relic": "royal-invite",
+       "rank": [
+        "Royal Guest",
+        "Convidado Real"
+       ]
+      }
+     ],
+     "mins": 10,
+     "final": true,
+     "pass": 0.6
+    }
+   ]
+  },
+  {
+   "id": "b",
+   "floor": 2,
+   "rank": [
+    "Market Trader",
+    "Feirante"
+   ],
+   "title": [
+    "Road B · Camden Market",
+    "Caminho B · O mercado de Camden"
+   ],
+   "place": [
+    "Camden, by the canal",
+    "Camden, à beira do canal"
+   ],
+   "color": "#3CCB7F",
+   "days": [
+    {
+     "id": "ld-b1",
+     "title": [
+      "Welcome to Camden",
+      "Bem-vindo a Camden"
+     ],
+     "sub": [
+      "Raj and his records",
+      "O Raj e seus discos"
+     ],
+     "icon": "music",
+     "grammar": [
+      "shopping: How much is it?, Can I try it on?, I'll take it",
+      "compras: How much is it?, Can I try it on?, I'll take it"
+     ],
+     "lessons": [
+      25,
+      30
+     ],
+     "words": [
+      [
+       "stall",
+       "barraca"
+      ],
+      [
+       "vintage",
+       "antigo / retrô"
+      ],
+      [
+       "record",
+       "disco"
+      ],
+      [
+       "How much is it?",
+       "Quanto custa?"
+      ],
+      [
+       "I'll take it",
+       "Vou levar"
+      ],
+      [
+       "bargain",
+       "pechincha"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-market",
+       "cast": [
+        "raj",
+        "you",
+        "pippa"
+       ],
+       "beats": [
+        {
+         "who": "raj",
+         "en": "Pippa! And a new face! Welcome to Camden, mate. Vintage records, vintage jackets, vintage me. Have a look!",
+         "pt": "Pippa! E um rosto novo! Bem-vindo a Camden, parceiro. Discos antigos, jaquetas antigas, eu antigo. Dá uma olhada!",
+         "emote": "happy"
+        },
+        {
+         "ask": [
+          "You see an old record. Ask about it.",
+          "Você vê um disco antigo. Pergunte sobre ele."
+         ],
+         "opts": [
+          {
+           "en": "How much is this record, please?",
+           "pt": "Quanto custa este disco, por favor?",
+           "ok": true
+          },
+          {
+           "en": "How many is this record?",
+           "pt": "Quantos é este disco?",
+           "fb": [
+            "Price: How MUCH is it?",
+            "Preço: How MUCH is it?"
+           ]
+          },
+          {
+           "en": "Give me this record.",
+           "pt": "Me dá este disco.",
+           "fb": [
+            "Raj: \"Ha! Nice try, mate.\"",
+            "Raj: \"Rá! Boa tentativa, parceiro.\""
+           ]
+          }
+         ]
+        },
+        {
+         "who": "raj",
+         "en": "That one? Ten pounds. It's from 1953. A song called \"Between the Seconds\". Funny, nobody ever bought it.",
+         "pt": "Esse? Dez libras. É de 1953. Uma música chamada \"Between the Seconds\". Engraçado, ninguém nunca comprou.",
+         "emote": "idea"
+        }
+       ]
+      },
+      {
+       "kind": "match",
+       "intro": [
+        "Shopping phrases.",
+        "Frases de compras."
+       ],
+       "pairs": [
+        [
+         "How much is it?",
+         "Quanto custa?"
+        ],
+        [
+         "Can I try it on?",
+         "Posso experimentar?"
+        ],
+        [
+         "I'll take it.",
+         "Vou levar."
+        ],
+        [
+         "It's too expensive.",
+         "Está caro demais."
+        ],
+        [
+         "Do you take cards?",
+         "Aceita cartão?"
+        ]
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Shopping.",
+        "Compras."
+       ],
+       "items": [
+        {
+         "q": [
+          "To ask the price:",
+          "Para perguntar o preço:"
+         ],
+         "opts": [
+          "How much is it?",
+          "How many is it?",
+          "What is cost?"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "You want to buy it. You say…",
+          "Você quer comprar. Você diz…"
+         ],
+         "opts": [
+          "I'll take it.",
+          "I'll leave it.",
+          "I take it yesterday."
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The record is from…",
+          "O disco é de…"
+         ],
+         "opts": [
+          "1953",
+          "1993",
+          "2053"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-b2",
+     "title": [
+      "The art of haggling",
+      "A arte de pechinchar"
+     ],
+     "sub": [
+      "Get a better price",
+      "Consiga um preço melhor"
+     ],
+     "icon": "scale",
+     "grammar": [
+      "comparatives with money: cheaper, more expensive, too much",
+      "comparativos com dinheiro: cheaper, more expensive, too much"
+     ],
+     "lessons": [
+      52
+     ],
+     "words": [
+      [
+       "haggle",
+       "pechinchar"
+      ],
+      [
+       "cheaper",
+       "mais barato"
+      ],
+      [
+       "discount",
+       "desconto"
+      ],
+      [
+       "deal",
+       "negócio fechado"
+      ],
+      [
+       "offer",
+       "oferta"
+      ],
+      [
+       "too much",
+       "demais"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-market",
+       "cast": [
+        "raj",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "raj",
+         "en": "In Camden, the price is just the beginning of the conversation. Make me an offer!",
+         "pt": "Em Camden, o preço é só o começo da conversa. Faz uma oferta!",
+         "emote": "laugh"
+        }
+       ]
+      },
+      {
+       "kind": "surgery",
+       "look": "service",
+       "scene": "ld-market",
+       "cast": [
+        "raj",
+        "you"
+       ],
+       "title": [
+        "Haggle with Raj",
+        "Pechinche com o Raj"
+       ],
+       "intro": [
+        "Choose the best answer, fast!",
+        "Escolha a melhor resposta, rápido!"
+       ],
+       "moments": [
+        {
+         "cue": [
+          "\"Ten pounds.\"",
+          "\"Dez libras.\""
+         ],
+         "opts": [
+          [
+           "That's a bit too much. How about six?",
+           "É um pouco caro. Que tal seis?"
+          ],
+          [
+           "Okay, twenty!",
+           "Tá, vinte!"
+          ],
+          [
+           "No.",
+           "Não."
+          ]
+         ],
+         "a": 0,
+         "secs": 8
+        },
+        {
+         "cue": [
+          "\"Six? You're breaking my heart. Nine.\"",
+          "\"Seis? Você está partindo meu coração. Nove.\""
+         ],
+         "opts": [
+          [
+           "Seven, and I'll buy two.",
+           "Sete, e eu levo dois."
+          ],
+          [
+           "Ten, please.",
+           "Dez, por favor."
+          ],
+          [
+           "Goodbye forever.",
+           "Adeus para sempre."
+          ]
+         ],
+         "a": 0,
+         "secs": 8
+        },
+        {
+         "cue": [
+          "\"Two for fifteen. Final offer.\"",
+          "\"Dois por quinze. Última oferta.\""
+         ],
+         "opts": [
+          [
+           "Deal!",
+           "Fechado!"
+          ],
+          [
+           "Never!",
+           "Nunca!"
+          ],
+          [
+           "What is a deal?",
+           "O que é deal?"
+          ]
+         ],
+         "a": 0,
+         "secs": 7
+        }
+       ],
+       "maxErr": 1
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Money and comparatives.",
+        "Dinheiro e comparativos."
+       ],
+       "items": [
+        {
+         "q": [
+          "Six pounds is ___ than ten pounds.",
+          "Seis libras é mais barato que dez libras."
+         ],
+         "opts": [
+          "cheaper",
+          "more cheap",
+          "cheapest"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Deal!\" means…",
+          "\"Deal!\" significa…"
+         ],
+         "opts": [
+          "we agree",
+          "I don't want it",
+          "cards"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "It costs too much. It's…",
+          "Custa demais. Está…"
+         ],
+         "opts": [
+          "too expensive",
+          "too cheap",
+          "very free"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-b3",
+     "title": [
+      "The silent stalls",
+      "As barracas caladas"
+     ],
+     "sub": [
+      "The market is losing its words",
+      "O mercado está perdendo as palavras"
+     ],
+     "icon": "alert",
+     "grammar": [
+      "present continuous: what is happening now",
+      "presente contínuo: o que está acontecendo agora"
+     ],
+     "lessons": [
+      33
+     ],
+     "words": [
+      [
+       "silent",
+       "calado"
+      ],
+      [
+       "disappear",
+       "desaparecer"
+      ],
+      [
+       "shout",
+       "gritar"
+      ],
+      [
+       "customer",
+       "cliente"
+      ],
+      [
+       "stallholder",
+       "feirante"
+      ],
+      [
+       "label",
+       "etiqueta"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-market",
+       "caps": [
+        [
+         "By lunchtime, Camden is strange. The stallholders are not shouting. The labels are blank. Customers point, and say nothing.",
+         "Na hora do almoço, Camden está estranha. Os feirantes não estão gritando. As etiquetas estão em branco. Os clientes apontam e não dizem nada."
+        ],
+        [
+         "Red ink runs along the canal. The Correctors are crossing out the prices, the names, the jokes.",
+         "Tinta vermelha corre pelo canal. Os Corretores estão riscando os preços, os nomes, as piadas."
+        ]
+       ],
+       "fx": "glitch",
+       "cast": [
+        "corrector"
+       ],
+       "mood": "tension"
+      },
+      {
+       "kind": "sort",
+       "intro": [
+        "What is happening now, and what happened before?",
+        "O que está acontecendo agora e o que aconteceu antes?"
+       ],
+       "bins": [
+        {
+         "id": "now",
+         "en": "Now",
+         "pt": "Agora",
+         "color": "#E53935"
+        },
+        {
+         "id": "before",
+         "en": "Before",
+         "pt": "Antes",
+         "color": "#5B8DEF"
+        }
+       ],
+       "items": [
+        {
+         "who": "raj",
+         "en": "The Correctors are crossing out the labels.",
+         "pt": "Os Corretores estão riscando as etiquetas.",
+         "bin": "now",
+         "why": [
+          "are + -ing: now.",
+          "are + -ing: agora."
+         ]
+        },
+        {
+         "who": "raj",
+         "en": "This morning, everybody was shouting prices.",
+         "pt": "Hoje de manhã, todo mundo gritava os preços.",
+         "bin": "before",
+         "why": [
+          "was + -ing: before.",
+          "was + -ing: antes."
+         ]
+        },
+        {
+         "who": "raj",
+         "en": "Nobody is talking.",
+         "pt": "Ninguém está falando.",
+         "bin": "now",
+         "why": [
+          "is + -ing: now.",
+          "is + -ing: agora."
+         ]
+        },
+        {
+         "who": "raj",
+         "en": "I sold six records yesterday.",
+         "pt": "Vendi seis discos ontem.",
+         "bin": "before",
+         "why": [
+          "sold, yesterday: past.",
+          "sold, yesterday: passado."
+         ]
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Now.",
+        "Agora."
+       ],
+       "items": [
+        {
+         "q": [
+          "The stallholders ___ shouting.",
+          "Os feirantes não estão gritando."
+         ],
+         "opts": [
+          "aren't",
+          "isn't",
+          "don't"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Red ink ___ along the canal.",
+          "Tinta vermelha está correndo pelo canal."
+         ],
+         "opts": [
+          "is running",
+          "are running",
+          "run"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "A person who sells at a market stall:",
+          "Uma pessoa que vende numa barraca:"
+         ],
+         "opts": [
+          "a stallholder",
+          "a customer",
+          "a guard"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-b4",
+     "title": [
+      "The voice of the market",
+      "A voz do mercado"
+     ],
+     "sub": [
+      "Help Raj sell again",
+      "Ajude o Raj a vender de novo"
+     ],
+     "icon": "mic",
+     "grammar": [
+      "adjectives to sell: amazing, rare, beautiful, the best",
+      "adjetivos para vender: amazing, rare, beautiful, the best"
+     ],
+     "lessons": [
+      52,
+      54
+     ],
+     "words": [
+      [
+       "rare",
+       "raro"
+      ],
+      [
+       "amazing",
+       "incrível"
+      ],
+      [
+       "the best",
+       "o melhor"
+      ],
+      [
+       "bright",
+       "vivo / brilhante"
+      ],
+      [
+       "soft",
+       "macio"
+      ],
+      [
+       "sell",
+       "vender"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-market",
+       "cast": [
+        "raj",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "raj",
+         "en": "…I can't shout anymore. Every time I open my mouth, a Corrector says \"wrong\". Can you sell for me? Just today?",
+         "pt": "…Não consigo mais gritar. Toda vez que abro a boca, um Corretor diz \"errado\". Você vende por mim? Só hoje?",
+         "emote": "sad"
+        }
+       ]
+      },
+      {
+       "kind": "spell",
+       "intro": [
+        "Shout like a Camden stallholder! The words chase the Correctors away.",
+        "Grite como um feirante de Camden! As palavras espantam os Corretores."
+       ],
+       "spells": [
+        {
+         "rune": "1",
+         "en": "Rare records! The best in London!",
+         "pt": "Discos raros! Os melhores de Londres!"
+        },
+        {
+         "rune": "2",
+         "en": "Beautiful jackets, very soft!",
+         "pt": "Jaquetas lindas, bem macias!"
+        },
+        {
+         "rune": "3",
+         "en": "Come and have a look!",
+         "pt": "Venham dar uma olhada!"
+        }
+       ],
+       "look": "words",
+       "scene": "ld-market"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Selling.",
+        "Vendendo."
+       ],
+       "items": [
+        {
+         "q": [
+          "Something you can't find easily is…",
+          "Uma coisa que não se acha fácil é…"
+         ],
+         "opts": [
+          "rare",
+          "cheap",
+          "loud"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The superlative of \"good\":",
+          "O superlativo de \"good\":"
+         ],
+         "opts": [
+          "the best",
+          "the goodest",
+          "the better"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Come and have a look!\" means…",
+          "\"Come and have a look!\" significa…"
+         ],
+         "opts": [
+          "come and see",
+          "come and eat",
+          "go away"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-b5",
+     "title": [
+      "The record of 1953",
+      "O disco de 1953"
+     ],
+     "sub": [
+      "A song nobody bought",
+      "Uma música que ninguém comprou"
+     ],
+     "icon": "heart",
+     "grammar": [
+      "past simple: a short story",
+      "passado simples: uma história curta"
+     ],
+     "lessons": [
+      38,
+      39
+     ],
+     "words": [
+      [
+       "record",
+       "disco"
+      ],
+      [
+       "sing",
+       "cantar"
+      ],
+      [
+       "sang",
+       "cantou"
+      ],
+      [
+       "write",
+       "escrever"
+      ],
+      [
+       "wrote",
+       "escreveu"
+      ],
+      [
+       "label",
+       "selo / etiqueta"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "read",
+       "intro": [
+        "Raj plays the old record. Read the back of the cover.",
+        "O Raj toca o disco antigo. Leia o verso da capa."
+       ],
+       "title": [
+        "\"Between the Seconds\" · Albion Records, 1953",
+        "\"Between the Seconds\" · Albion Records, 1953"
+       ],
+       "paras": [
+        [
+         "A young singer from a seaside town recorded this song in London in 1953.",
+         "Uma jovem cantora de uma cidade litorânea gravou esta música em Londres em 1953."
+        ],
+        [
+         "She wrote it for a watchmaker. They married the next year and opened a small shop of clocks and tea.",
+         "Ela escreveu para um relojoeiro. Eles se casaram no ano seguinte e abriram uma lojinha de relógios e chá."
+        ],
+        [
+         "Her name is printed only as \"A. Wren\".",
+         "O nome dela está impresso só como \"A. Wren\"."
+        ]
+       ],
+       "items": [
+        {
+         "q": [
+          "When did she record the song?",
+          "Quando ela gravou a música?"
+         ],
+         "opts": [
+          "in 1953",
+          "in 1935",
+          "last year"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Who did she write it for?",
+          "Para quem ela escreveu?"
+         ],
+         "opts": [
+          "a watchmaker",
+          "a king",
+          "a sailor"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "What did they open?",
+          "O que eles abriram?"
+         ],
+         "opts": [
+          "a shop of clocks and tea",
+          "a cinema",
+          "a hospital"
+         ],
+         "a": 0
+        }
+       ],
+       "who": "raj"
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-market",
+       "cast": [
+        "raj",
+        "you",
+        "pippa"
+       ],
+       "beats": [
+        {
+         "who": "pippa",
+         "en": "A. Wren… Married to a watchmaker. Wait. Isn't that…",
+         "pt": "A. Wren… Casada com um relojoeiro. Espera. Isso não é…",
+         "emote": "question"
+        },
+        {
+         "ask": [
+          "You know that name. Answer Pippa.",
+          "Você conhece esse nome. Responda à Pippa."
+         ],
+         "opts": [
+          {
+           "en": "In my world, Agnes never married him. He disappeared in 1953. But here… they had a life together.",
+           "pt": "No meu mundo, a Agnes nunca se casou com ele. Ele desapareceu em 1953. Mas aqui… eles tiveram uma vida juntos.",
+           "ok": true
+          },
+          {
+           "en": "In my world, Agnes never marry him.",
+           "pt": "No meu mundo, a Agnes nunca casar com ele.",
+           "fb": [
+            "Past: she never MARRIED him.",
+            "Passado: she never MARRIED him."
+           ]
+          },
+          {
+           "en": "I don't know any Wren.",
+           "pt": "Não conheço nenhum Wren.",
+           "fb": [
+            "You do. You know him very well.",
+            "Conhece, sim. Muito bem."
+           ]
+          }
+         ]
+        },
+        {
+         "who": "raj",
+         "en": "Then keep the record, mate. On the house. Some songs are waiting for the right person.",
+         "pt": "Então fica com o disco, parceiro. Por conta da casa. Algumas músicas esperam a pessoa certa.",
+         "emote": "heart"
+        }
+       ],
+       "mood": "reveal",
+       "vfx": "sparkles"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "The past simple.",
+        "O passado simples."
+       ],
+       "items": [
+        {
+         "q": [
+          "She ___ the song for a watchmaker.",
+          "Ela escreveu a música para um relojoeiro."
+         ],
+         "opts": [
+          "wrote",
+          "writed",
+          "write"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "They ___ the next year.",
+          "Eles se casaram no ano seguinte."
+         ],
+         "opts": [
+          "married",
+          "marryed",
+          "marry"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Nobody ever ___ the record.",
+          "Ninguém nunca comprou o disco."
+         ],
+         "opts": [
+          "bought",
+          "buyed",
+          "buys"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-bx",
+     "title": [
+      "Market day",
+      "Dia de feira"
+     ],
+     "sub": [
+      "Camden shouts again",
+      "Camden grita de novo"
+     ],
+     "icon": "star",
+     "grammar": [
+      "Road B review",
+      "Revisão do caminho B"
+     ],
+     "lessons": [
+      25,
+      30,
+      52,
+      38
+     ],
+     "words": [
+      [
+       "market",
+       "mercado"
+      ],
+      [
+       "crowd",
+       "multidão"
+      ],
+      [
+       "loud",
+       "alto (som)"
+      ],
+      [
+       "again",
+       "de novo"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-market",
+       "caps": [
+        [
+         "Saturday. You and Raj stand on a box in the middle of Camden and shout. The other stallholders join in, one by one.",
+         "Sábado. Você e o Raj sobem numa caixa no meio de Camden e gritam. Os outros feirantes entram, um por um."
+        ],
+        [
+         "The Correctors can't keep up. There are too many words, too loud, too happy. They run into the canal and dissolve.",
+         "Os Corretores não dão conta. São palavras demais, altas demais, felizes demais. Eles correm para o canal e se dissolvem."
+        ]
+       ],
+       "fx": "light",
+       "cast": [
+        "raj",
+        "pippa"
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Road B review.",
+        "Revisão do caminho B."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"How much is it?\" \"It's ___ pounds.\"",
+          "\"Quanto custa?\" \"São dez libras.\""
+         ],
+         "opts": [
+          "ten",
+          "tenth",
+          "tens"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Seven is ___ than nine.",
+          "Sete é mais barato que nove."
+         ],
+         "opts": [
+          "cheaper",
+          "cheapest",
+          "more cheaper"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "A. Wren ___ the song in 1953.",
+          "A. Wren gravou a música em 1953."
+         ],
+         "opts": [
+          "recorded",
+          "records",
+          "recording"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"On the house\" means…",
+          "\"On the house\" significa…"
+         ],
+         "opts": [
+          "free",
+          "on the roof",
+          "very expensive"
+         ],
+         "a": 0
+        }
+       ]
+      },
+      {
+       "kind": "cine",
+       "scene": "ld-crack",
+       "caps": [
+        [
+         "That night the crack in the sky opens wider. Behind it there are not two worlds… but thousands, like pages of a book falling.",
+         "Naquela noite, a rachadura no céu se abre mais. Atrás dela não há dois mundos… mas milhares, como páginas de um livro caindo."
+        ],
+        [
+         "Pippa whispers: \"Every one of those is an Earth. And something very big is turning the pages.\"",
+         "A Pippa sussurra: \"Cada um daqueles é uma Terra. E algo muito grande está virando as páginas.\""
+        ]
+       ],
+       "fx": "glow"
+      },
+      {
+       "kind": "reward",
+       "title": [
+        "Market Trader",
+        "Feirante"
+       ],
+       "who": "raj",
+       "line": [
+        "Here: the Camden badge. Only the best stallholders get one. You're loud, mate. That's a compliment.",
+        "Aqui: o broche de Camden. Só os melhores feirantes ganham. Você é barulhento, parceiro. É um elogio."
+       ],
+       "relic": "camden-badge",
+       "rank": [
+        "Market Trader",
+        "Feirante"
+       ]
+      }
+     ],
+     "mins": 10,
+     "final": true,
+     "pass": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c",
+   "floor": 2,
+   "rank": [
+    "Night Traveller",
+    "Viajante da Noite"
+   ],
+   "title": [
+    "Road C · Wren Street",
+    "Caminho C · Wren Street"
+   ],
+   "place": [
+    "The ghost station",
+    "A estação fantasma"
+   ],
+   "color": "#7FD8B8",
+   "days": [
+    {
+     "id": "ld-c1",
+     "title": [
+      "The closed station",
+      "A estação fechada"
+     ],
+     "sub": [
+      "Wren Street, 1953",
+      "Wren Street, 1953"
+     ],
+     "icon": "lock",
+     "grammar": [
+      "past simple and \"used to\": what the station was like",
+      "passado simples e \"used to\": como a estação era"
+     ],
+     "lessons": [
+      38,
+      39
+     ],
+     "words": [
+      [
+       "closed",
+       "fechado"
+      ],
+      [
+       "ghost",
+       "fantasma"
+      ],
+      [
+       "stationmaster",
+       "chefe da estação"
+      ],
+      [
+       "used to",
+       "costumava"
+      ],
+      [
+       "dust",
+       "poeira"
+      ],
+      [
+       "poster",
+       "cartaz"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-ghost",
+       "caps": [
+        [
+         "Behind a locked gate, stairs go down into the dark. A sign: \"WREN STREET. CLOSED 31 DECEMBER 1953.\"",
+         "Atrás de um portão trancado, uma escada desce no escuro. Uma placa: \"WREN STREET. FECHADA EM 31 DE DEZEMBRO DE 1953.\""
+        ],
+        [
+         "Old posters. A clock stopped at a quarter to twelve. And a soft green light, walking towards you.",
+         "Cartazes antigos. Um relógio parado em quinze para a meia-noite. E uma luz verde suave, vindo na sua direção."
+        ]
+       ],
+       "fx": "dark",
+       "mood": "spooky"
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-ghost",
+       "cast": [
+        "whitlock",
+        "you",
+        "pippa"
+       ],
+       "beats": [
+        {
+         "who": "whitlock",
+         "en": "Tickets, please. Oh… you're alive. How unusual. Good evening. I'm Mr. Whitlock, the stationmaster. I used to work here.",
+         "pt": "Bilhetes, por favor. Ah… você está vivo. Que incomum. Boa noite. Sou o Sr. Whitlock, o chefe da estação. Eu trabalhava aqui.",
+         "emote": "question"
+        },
+        {
+         "ask": [
+          "Ask the ghost about the station.",
+          "Pergunte ao fantasma sobre a estação."
+         ],
+         "opts": [
+          {
+           "en": "Why did the station close, Mr. Whitlock?",
+           "pt": "Por que a estação fechou, Sr. Whitlock?",
+           "ok": true
+          },
+          {
+           "en": "Why the station closed?",
+           "pt": "Por que a estação fechou?",
+           "fb": [
+            "Question in the past: Why DID it close?",
+            "Pergunta no passado: Why DID it close?"
+           ]
+          },
+          {
+           "en": "Are you a real ghost?",
+           "pt": "Você é um fantasma de verdade?",
+           "fb": [
+            "Whitlock: \"Rather rude, but yes.\"",
+            "Whitlock: \"Um tanto grosseiro, mas sim.\""
+           ]
+          }
+         ]
+        },
+        {
+         "who": "whitlock",
+         "en": "On New Year's Eve, 1953, a young man ran down these stairs. A watchmaker. Then the clock stopped, the train never came… and neither did he.",
+         "pt": "Na véspera de Ano-Novo de 1953, um rapaz desceu correndo esta escada. Um relojoeiro. Então o relógio parou, o trem nunca veio… e ele também não.",
+         "emote": "sad"
+        }
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Used to.",
+        "Used to."
+       ],
+       "items": [
+        {
+         "q": [
+          "Mr. Whitlock ___ work here (but not now).",
+          "O Sr. Whitlock trabalhava aqui (mas não agora)."
+         ],
+         "opts": [
+          "used to",
+          "uses to",
+          "is used"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "When did the station close?",
+          "Quando a estação fechou?"
+         ],
+         "opts": [
+          "31 December 1953",
+          "1 January 2053",
+          "13 December 1935"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "The clock stopped at…",
+          "O relógio parou em…"
+         ],
+         "opts": [
+          "a quarter to twelve",
+          "half past twelve",
+          "one o'clock"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-c2",
+     "title": [
+      "The ghost tunnels",
+      "Os túneis fantasmas"
+     ],
+     "sub": [
+      "Follow Mr. Whitlock",
+      "Siga o Sr. Whitlock"
+     ],
+     "icon": "flag",
+     "grammar": [
+      "directions in the dark: on your left, straight on, mind the step",
+      "direções no escuro: on your left, straight on, mind the step"
+     ],
+     "lessons": [
+      27,
+      28
+     ],
+     "words": [
+      [
+       "tunnel",
+       "túnel"
+      ],
+      [
+       "straight on",
+       "em frente (UK)"
+      ],
+      [
+       "mind the step",
+       "cuidado com o degrau"
+      ],
+      [
+       "dark",
+       "escuro"
+      ],
+      [
+       "torch",
+       "lanterna (UK)"
+      ],
+      [
+       "rail",
+       "trilho"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-ghost",
+       "cast": [
+        "whitlock",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "whitlock",
+         "en": "Something has been waiting in these tunnels since 1953. Bring your torch. In Liberty they say \"flashlight\". Here, a torch.",
+         "pt": "Algo está esperando nestes túneis desde 1953. Traga sua lanterna. Em Liberty dizem \"flashlight\". Aqui, \"torch\"."
+        }
+       ]
+      },
+      {
+       "kind": "maze",
+       "intro": [
+        "Follow the ghost through the tunnels.",
+        "Siga o fantasma pelos túneis."
+       ],
+       "map": [
+        "#########",
+        "#S....###",
+        "#####.###",
+        "#D....###",
+        "#########"
+       ],
+       "moves": [
+        {
+         "en": "Straight on. Four steps. Mind the rails.",
+         "pt": "Em frente. Quatro passos. Cuidado com os trilhos.",
+         "turn": "straight",
+         "n": 4
+        },
+        {
+         "en": "Turn right. Two steps. Mind the step.",
+         "pt": "Vire à direita. Dois passos. Cuidado com o degrau.",
+         "turn": "right",
+         "n": 2
+        },
+        {
+         "en": "Turn right again. Four steps, to the old platform.",
+         "pt": "Vire à direita de novo. Quatro passos, até a plataforma velha.",
+         "turn": "right",
+         "n": 4
+        }
+       ],
+       "look": "dark",
+       "who": "whitlock"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "In the tunnels.",
+        "Nos túneis."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"Straight on\" (UK) means…",
+          "\"Straight on\" (UK) significa…"
+         ],
+         "opts": [
+          "go forward",
+          "turn around",
+          "stop"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "A \"torch\" in Albion is a \"___\" in Liberty.",
+          "Uma \"torch\" em Albion é uma \"___\" em Liberty."
+         ],
+         "opts": [
+          "flashlight",
+          "fire",
+          "lamp post"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Mind the step\" means…",
+          "\"Mind the step\" significa…"
+         ],
+         "opts": [
+          "be careful, there is a step",
+          "think about the step",
+          "my step"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-c3",
+     "title": [
+      "Posters from 1953",
+      "Cartazes de 1953"
+     ],
+     "sub": [
+      "What the walls remember",
+      "O que as paredes lembram"
+     ],
+     "icon": "search",
+     "grammar": [
+      "reading old notices; dates in British order: 31/12/1953",
+      "ler avisos antigos; datas na ordem britânica: 31/12/1953"
+     ],
+     "lessons": [
+      21,
+      31
+     ],
+     "words": [
+      [
+       "notice",
+       "aviso"
+      ],
+      [
+       "dance",
+       "baile"
+      ],
+      [
+       "ticket",
+       "ingresso"
+      ],
+      [
+       "date",
+       "data"
+      ],
+      [
+       "New Year's Eve",
+       "véspera de Ano-Novo"
+      ],
+      [
+       "cinema",
+       "cinema"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "inspect",
+       "scene": "ld-ghost",
+       "intro": [
+        "Look at the old platform with the magnifying glass.",
+        "Examine a plataforma velha com a lupa."
+       ],
+       "clues": [
+        {
+         "id": "poster",
+         "x": 20,
+         "y": 46,
+         "r": 7,
+         "en": "A poster: \"New Year's Eve Dance, 31/12/1953, Bright Harbor Hall.\" In Albion, the day comes first.",
+         "pt": "Um cartaz: \"Baile de Ano-Novo, 31/12/1953, Salão de Bright Harbor.\" Em Albion, o dia vem primeiro.",
+         "mark": "paper"
+        },
+        {
+         "id": "ticket",
+         "x": 60,
+         "y": 76,
+         "r": 7,
+         "en": "A ticket on the floor: \"Midnight Palace · ADMIT TWO\". Only one half is torn.",
+         "pt": "Um ingresso no chão: \"Midnight Palace · ADMITE DOIS\". Só uma metade está rasgada.",
+         "mark": "ticket"
+        },
+        {
+         "id": "clock",
+         "x": 121,
+         "y": 46,
+         "r": 7,
+         "en": "The station clock. Behind it, an engraving: \"E. Wren fixed me. 1952.\"",
+         "pt": "O relógio da estação. Atrás dele, uma gravação: \"E. Wren me consertou. 1952.\"",
+         "mark": "gear"
+        },
+        {
+         "id": "ink",
+         "x": 90,
+         "y": 82,
+         "r": 7,
+         "en": "Fresh red ink, going down to the lower platform.",
+         "pt": "Tinta vermelha fresca, descendo para a plataforma de baixo.",
+         "mark": "drop"
+        }
+       ],
+       "need": 4,
+       "who": "whitlock"
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-ghost",
+       "cast": [
+        "whitlock",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "whitlock",
+         "en": "E. Wren… Yes. The young watchmaker fixed my clock the year before. He had a ticket for two that night. He never used his half.",
+         "pt": "E. Wren… Sim. O jovem relojoeiro consertou meu relógio no ano anterior. Ele tinha um ingresso para dois naquela noite. Nunca usou a metade dele.",
+         "emote": "sad"
+        },
+        {
+         "ask": [
+          "Who was the other ticket for?",
+          "Para quem era o outro ingresso?"
+         ],
+         "opts": [
+          {
+           "en": "Was the other ticket for a nurse called Agnes?",
+           "pt": "O outro ingresso era para uma enfermeira chamada Agnes?",
+           "ok": true
+          },
+          {
+           "en": "The other ticket was for who?",
+           "pt": "O outro ingresso era para quem?",
+           "fb": [
+            "Question order: Who WAS the other ticket for?",
+            "Ordem da pergunta: Who WAS the other ticket for?"
+           ]
+          },
+          {
+           "en": "Can I have the ticket?",
+           "pt": "Posso ficar com o ingresso?",
+           "fb": [
+            "Whitlock: \"Not yet, young traveller.\"",
+            "Whitlock: \"Ainda não, jovem viajante.\""
+           ]
+          }
+         ]
+        },
+        {
+         "who": "whitlock",
+         "en": "How did you know? She waited at the dance until midnight. Then the clock stopped… and so did everything.",
+         "pt": "Como você sabia? Ela esperou no baile até a meia-noite. Então o relógio parou… e tudo parou também.",
+         "emote": "question"
+        }
+       ],
+       "mood": "mystery"
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Dates.",
+        "Datas."
+       ],
+       "items": [
+        {
+         "q": [
+          "In Albion, 31/12/1953 is…",
+          "Em Albion, 31/12/1953 é…"
+         ],
+         "opts": [
+          "the 31st of December, 1953",
+          "the 12th of the 31st month",
+          "December 31st, 1935"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "In Liberty, the same date is written…",
+          "Em Liberty, a mesma data se escreve…"
+         ],
+         "opts": [
+          "12/31/1953",
+          "31/12/1953",
+          "1953/31/12"
+         ],
+         "a": 0,
+         "fb": [
+          "Liberty puts the month first.",
+          "Liberty põe o mês primeiro."
+         ]
+        },
+        {
+         "q": [
+          "The ticket was for…",
+          "O ingresso era para…"
+         ],
+         "opts": [
+          "two people",
+          "one person",
+          "a train"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-c4",
+     "title": [
+      "Lady Errata",
+      "Lady Errata"
+     ],
+     "sub": [
+      "The Red Pen in person",
+      "A Caneta Vermelha em pessoa"
+     ],
+     "icon": "alert",
+     "grammar": [
+      "reported speech (simple): She said that…",
+      "discurso indireto (simples): She said that…"
+     ],
+     "lessons": [
+      58,
+      60
+     ],
+     "words": [
+      [
+       "correct",
+       "correto / corrigir"
+      ],
+      [
+       "perfect",
+       "perfeito"
+      ],
+      [
+       "rule",
+       "regra"
+      ],
+      [
+       "said",
+       "disse"
+      ],
+      [
+       "erase",
+       "apagar"
+      ],
+      [
+       "margin",
+       "margem"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-ghost",
+       "caps": [
+        [
+         "On the lowest platform, the red ink climbs the wall and becomes a woman. Tall, elegant, a hat like a pen. Perfect handwriting floats around her.",
+         "Na plataforma mais baixa, a tinta vermelha sobe a parede e vira uma mulher. Alta, elegante, um chapéu como uma caneta. Uma caligrafia perfeita flutua em volta dela."
+        ],
+        [
+         "She looks at you the way a teacher looks at a page full of mistakes.",
+         "Ela olha para você do jeito que uma professora olha para uma página cheia de erros."
+        ]
+       ],
+       "fx": "glow",
+       "cast": [
+        "errata"
+       ],
+       "mood": "reveal",
+       "vfx": "ash"
+      },
+      {
+       "kind": "talk",
+       "scene": "ld-ghost",
+       "cast": [
+        "errata",
+        "you",
+        "whitlock"
+       ],
+       "beats": [
+        {
+         "who": "errata",
+         "en": "Good evening. I am Lady Errata. You speak with an accent, you mix two Englishes, and you make mistakes. You are… everything I correct.",
+         "pt": "Boa noite. Sou a Lady Errata. Você fala com sotaque, mistura dois ingleses e comete erros. Você é… tudo o que eu corrijo."
+        },
+        {
+         "who": "errata",
+         "en": "Two worlds? Oh, darling. There are thousands of Earths, and they are all falling into each other. I am only the herald. The Final Reviser is coming, and the Final Reviser keeps only ONE draft.",
+         "pt": "Dois mundos? Ah, querido. Existem milhares de Terras, e todas estão caindo umas nas outras. Eu sou só a arauto. O Revisor Final está vindo, e o Revisor Final guarda só UM rascunho.",
+         "emote": "alert"
+        },
+        {
+         "who": "errata",
+         "en": "When the two worlds collide, I will choose ONE English. Mine. Perfect. And nobody will ever make a mistake again, because nobody will dare to speak.",
+         "pt": "Quando os dois mundos colidirem, vou escolher UM inglês. O meu. Perfeito. E ninguém nunca mais vai errar, porque ninguém vai ousar falar."
+        },
+        {
+         "ask": [
+          "Answer Lady Errata.",
+          "Responda à Lady Errata."
+         ],
+         "opts": [
+          {
+           "en": "A language with no mistakes is a language with no people. I'd rather make mistakes.",
+           "pt": "Uma língua sem erros é uma língua sem pessoas. Prefiro cometer erros.",
+           "ok": true
+          },
+          {
+           "en": "A language with no mistakes are a language with no people.",
+           "pt": "Uma língua sem erros são uma língua sem pessoas.",
+           "fb": [
+            "A language IS.",
+            "A language IS."
+           ]
+          },
+          {
+           "en": "…",
+           "pt": "…",
+           "fb": [
+            "That is exactly what she wants: silence.",
+            "É exatamente o que ela quer: silêncio."
+           ]
+          }
+         ]
+        },
+        {
+         "who": "errata",
+         "en": "How… untidy. We will meet again, little mistake.",
+         "pt": "Que… desarrumado. Vamos nos ver de novo, errinho."
+        }
+       ],
+       "state": {
+        "errata": true
+       }
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "She said…",
+        "Ela disse…"
+       ],
+       "items": [
+        {
+         "q": [
+          "Lady Errata said that she ___ choose one English.",
+          "A Lady Errata disse que ia escolher um inglês."
+         ],
+         "opts": [
+          "would",
+          "will to",
+          "is"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "What does she want?",
+          "O que ela quer?"
+         ],
+         "opts": [
+          "nobody to dare to speak",
+          "everybody to speak more",
+          "a cup of tea"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "\"Untidy\" means…",
+          "\"Untidy\" significa…"
+         ],
+         "opts": [
+          "not organised",
+          "very clean",
+          "very tired"
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-c5",
+     "title": [
+      "The last train of 1953",
+      "O último trem de 1953"
+     ],
+     "sub": [
+      "Mr. Whitlock's wish",
+      "O desejo do Sr. Whitlock"
+     ],
+     "icon": "heart",
+     "grammar": [
+      "wishes and future: I wish…, I will…, I hope…",
+      "desejos e futuro: I wish…, I will…, I hope…"
+     ],
+     "lessons": [
+      44,
+      48
+     ],
+     "words": [
+      [
+       "wish",
+       "desejo"
+      ],
+      [
+       "hope",
+       "esperança / esperar"
+      ],
+      [
+       "peace",
+       "paz"
+      ],
+      [
+       "last",
+       "último"
+      ],
+      [
+       "goodbye",
+       "adeus"
+      ],
+      [
+       "train",
+       "trem"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "talk",
+       "scene": "ld-ghost",
+       "cast": [
+        "whitlock",
+        "you"
+       ],
+       "beats": [
+        {
+         "who": "whitlock",
+         "en": "For seventy years I have waited for the last train of 1953. I couldn't leave until somebody heard the story of that night.",
+         "pt": "Por setenta anos eu esperei o último trem de 1953. Eu não podia ir embora até alguém ouvir a história daquela noite.",
+         "emote": "sad"
+        },
+        {
+         "ask": [
+          "Tell him what you know.",
+          "Conte o que você sabe."
+         ],
+         "opts": [
+          {
+           "en": "The watchmaker became the Clockmaker. He saved time itself. And in this world, he married her.",
+           "pt": "O relojoeiro virou o Relojoeiro. Ele salvou o próprio tempo. E neste mundo, ele se casou com ela.",
+           "ok": true
+          },
+          {
+           "en": "The watchmaker become the Clockmaker.",
+           "pt": "O relojoeiro virar o Relojoeiro.",
+           "fb": [
+            "Past: he BECAME.",
+            "Passado: he BECAME."
+           ]
+          },
+          {
+           "en": "I don't know anything.",
+           "pt": "Não sei de nada.",
+           "fb": [
+            "You do. Say it.",
+            "Sabe, sim. Diga."
+           ]
+          }
+         ]
+        },
+        {
+         "who": "whitlock",
+         "en": "Then he arrived somewhere after all. Thank you. I hope… I hope my train comes now.",
+         "pt": "Então ele chegou em algum lugar, afinal. Obrigado. Espero… espero que meu trem venha agora.",
+         "emote": "heart"
+        }
+       ],
+       "mood": "sad",
+       "vfx": "fireflies"
+      },
+      {
+       "kind": "cine",
+       "scene": "ld-ghost",
+       "caps": [
+        [
+         "Far away, a whistle. Lights in the tunnel. A train from 1953 stops at the platform, warm and golden.",
+         "Ao longe, um apito. Luzes no túnel. Um trem de 1953 para na plataforma, quente e dourado."
+        ],
+        [
+         "Mr. Whitlock gets on, touches his cap, and smiles. \"Mind the gap, young traveller.\" The doors close. The station is quiet, and peaceful.",
+         "O Sr. Whitlock entra, toca o boné e sorri. \"Cuidado com o vão, jovem viajante.\" As portas fecham. A estação fica quieta, e em paz."
+        ]
+       ],
+       "fx": "light",
+       "cast": [
+        "whitlock"
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Wishes and hopes.",
+        "Desejos e esperanças."
+       ],
+       "items": [
+        {
+         "q": [
+          "\"I hope my train ___ now.\"",
+          "\"Espero que meu trem venha agora.\""
+         ],
+         "opts": [
+          "comes",
+          "come",
+          "coming"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Mr. Whitlock waited for…",
+          "O Sr. Whitlock esperou por…"
+         ],
+         "opts": [
+          "seventy years",
+          "seven years",
+          "seventeen years"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "His last words were…",
+          "As últimas palavras dele foram…"
+         ],
+         "opts": [
+          "Mind the gap, young traveller.",
+          "Tickets, please.",
+          "Goodbye, London."
+         ],
+         "a": 0
+        }
+       ]
+      }
+     ],
+     "mins": 7
+    },
+    {
+     "id": "ld-cx",
+     "title": [
+      "Wren Street opens",
+      "Wren Street reabre"
+     ],
+     "sub": [
+      "A station for both worlds",
+      "Uma estação para os dois mundos"
+     ],
+     "icon": "star",
+     "grammar": [
+      "Road C review",
+      "Revisão do caminho C"
+     ],
+     "lessons": [
+      38,
+      39,
+      21,
+      44
+     ],
+     "words": [
+      [
+       "open",
+       "aberto"
+      ],
+      [
+       "journey",
+       "viagem"
+      ],
+      [
+       "both",
+       "os dois"
+      ],
+      [
+       "traveller",
+       "viajante (UK)"
+      ]
+     ],
+     "steps": [
+      {
+       "kind": "cine",
+       "scene": "ld-tube",
+       "caps": [
+        [
+         "A week later, Wren Street opens again. The new map has a line that nobody has seen before: a purple line, going under the Seam.",
+         "Uma semana depois, Wren Street reabre. O mapa novo tem uma linha que ninguém tinha visto: uma linha roxa, que passa por baixo da Costura."
+        ],
+        [
+         "The last stop on the purple line has a name in two spellings: \"THE CENTRE / THE CENTER\". Nobody crossed either out.",
+         "A última parada da linha roxa tem um nome com duas grafias: \"THE CENTRE / THE CENTER\". Ninguém riscou nenhuma."
+        ]
+       ],
+       "fx": "light",
+       "cast": [
+        "pippa"
+       ]
+      },
+      {
+       "kind": "quiz",
+       "intro": [
+        "Road C review.",
+        "Revisão do caminho C."
+       ],
+       "items": [
+        {
+         "q": [
+          "The station closed in…",
+          "A estação fechou em…"
+         ],
+         "opts": [
+          "1953",
+          "1935",
+          "2053"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Mr. Whitlock ___ to work there.",
+          "O Sr. Whitlock trabalhava lá."
+         ],
+         "opts": [
+          "used",
+          "use",
+          "using"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "British spelling:",
+          "Ortografia britânica:"
+         ],
+         "opts": [
+          "traveller",
+          "traveler"
+         ],
+         "a": 0
+        },
+        {
+         "q": [
+          "Who did you meet on the lowest platform?",
+          "Quem você encontrou na plataforma mais baixa?"
+         ],
+         "opts": [
+          "Lady Errata",
+          "the King",
+          "Raj"
+         ],
+         "a": 0
+        }
+       ]
+      },
+      {
+       "kind": "cine",
+       "scene": "ld-crack",
+       "caps": [
+        [
+         "That night the crack in the sky opens wider. Behind it there are not two worlds… but thousands, like pages of a book falling.",
+         "Naquela noite, a rachadura no céu se abre mais. Atrás dela não há dois mundos… mas milhares, como páginas de um livro caindo."
+        ],
+        [
+         "Pippa whispers: \"Every one of those is an Earth. And something very big is turning the pages.\"",
+         "A Pippa sussurra: \"Cada um daqueles é uma Terra. E algo muito grande está virando as páginas.\""
+        ]
+       ],
+       "fx": "glow"
+      },
+      {
+       "kind": "reward",
+       "title": [
+        "Night Traveller",
+        "Viajante da Noite"
+       ],
+       "who": "pippa",
+       "line": [
+        "Mr. Whitlock left his cap on the bench. I think he wanted you to have it.",
+        "O Sr. Whitlock deixou o boné no banco. Acho que ele queria que ficasse com você."
+       ],
+       "relic": "whitlock-cap",
+       "rank": [
+        "Night Traveller",
+        "Viajante da Noite"
+       ]
+      }
+     ],
+     "mins": 10,
+     "final": true,
+     "pass": 0.6
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  "ld-boxin",
+  "ld-mews",
+  "ld-crack",
+  "ld-street",
+  "ld-baker",
+  "ld-tube",
+  "ld-cafe",
+  "ld-square",
+  "ld-bigben",
+  "ld-palace",
+  "ld-market",
+  "ld-ghost"
+ ]
+}
